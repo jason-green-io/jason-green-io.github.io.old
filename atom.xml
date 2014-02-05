@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason-green-io.github.io/atom.xml" rel="self"/>
   <link href="http://jason-green-io.github.io/"/>
-  <updated>2014-02-05T19:38:22+00:00</updated>
+  <updated>2014-02-05T20:38:35+00:00</updated>
   <id>http://jason-green-io.github.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -14,17 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Moved Blog]]></title>
+    <title type="html"><![CDATA[Going Down the Markdown Hole]]></title>
     <link href="http://jason-green-io.github.io/blog/2014/02/04/moved-blog/"/>
     <updated>2014-02-04T00:00:00+00:00</updated>
     <id>http://jason-green-io.github.io/blog/2014/02/04/moved-blog</id>
-    <content type="html"><![CDATA[<hr />
-
-<p>title: &ldquo;going down the markdown hole&rdquo;
-date: 2014-02-04
-Status: published</p>
-
-<p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here&rsquo;s how I did it.</p>
+    <content type="html"><![CDATA[<p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here&rsquo;s how I did it.</p>
 
 <p><em>Platform</em></p>
 
@@ -45,17 +39,11 @@ Status: published</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Prompt Vim Tmux]]></title>
+    <title type="html"><![CDATA[Prompt, Vim and Tmux Issues and How to Fix Them]]></title>
     <link href="http://jason-green-io.github.io/blog/2014/01/29/Prompt-vim-tmux/"/>
     <updated>2014-01-29T00:00:00+00:00</updated>
     <id>http://jason-green-io.github.io/blog/2014/01/29/Prompt-vim-tmux</id>
-    <content type="html"><![CDATA[<hr />
-
-<p>title: &ldquo;Prompt, vim and tmux issues and how to fix them&rdquo;
-date: 2014-01-29
-Status: draft</p>
-
-<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screens or tmuxes status bar to the same background as your terminals default, this aberations go away.</p>
+    <content type="html"><![CDATA[<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screens or tmuxes status bar to the same background as your terminals default, this aberations go away.</p>
 
 <p>Also, not sure, but I think the latest update to Prompt fixed issues I was having in vim</p>
 ]]></content>
@@ -77,17 +65,11 @@ Status: draft</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[3d Clips]]></title>
+    <title type="html"><![CDATA[3D Printed Apple Wireless Keyboard Clips]]></title>
     <link href="http://jason-green-io.github.io/blog/2014/01/12/3D-clips/"/>
     <updated>2014-01-12T00:00:00+00:00</updated>
     <id>http://jason-green-io.github.io/blog/2014/01/12/3D-clips</id>
-    <content type="html"><![CDATA[<hr />
-
-<p>title: &ldquo;3D printed Apple wireless keyboard clips&rdquo;
-date: 2014-1-12
-Status: draft</p>
-
-<p><img src="https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1" alt="W00t" /></p>
+    <content type="html"><![CDATA[<p><img src="https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1" alt="W00t" /></p>
 
 <p>Got these made for 2 reasons. I didn&rsquo;t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had <a href="http://www.3dprint-uk.co.uk/">these</a> guys print the model from <a href="http://www.thingiverse.com/thing:147819">here</a>. I haven&rsquo;t tested them out much, looks promising.</p>
 ]]></content>
@@ -98,9 +80,7 @@ Status: draft</p>
     <link href="http://jason-green-io.github.io/blog/2014/01/11/Test-post/"/>
     <updated>2014-01-11T00:00:00+00:00</updated>
     <id>http://jason-green-io.github.io/blog/2014/01/11/Test-post</id>
-    <content type="html"><![CDATA[<p>Status: draft</p>
-
-<p>Hello world! Again, where&rsquo;s the title! It is missing from this post. Very odd indeed<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+    <content type="html"><![CDATA[<p>Hello world! Again, where&rsquo;s the title! It is missing from this post. Very odd indeed<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
 
 <p>This is a statement that should be attributed to
 its source.</p>
