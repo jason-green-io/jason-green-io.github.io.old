@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[jason.green.io]]></title>
-  <link href="http://jason.green.io/atom.xml" rel="self"/>
-  <link href="http://jason.green.io/"/>
-  <updated>2014-02-05T10:25:28+00:00</updated>
-  <id>http://jason.green.io/</id>
+  <link href="http://jason-green-io.github.io/atom.xml" rel="self"/>
+  <link href="http://jason-green-io.github.io/"/>
+  <updated>2014-02-05T10:52:25+00:00</updated>
+  <id>http://jason-green-io.github.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
     <email><![CDATA[jason@green.io]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Moved Blog]]></title>
-    <link href="http://jason.green.io/blog/2014/02/04/moved-blog/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/02/04/moved-blog/"/>
     <updated>2014-02-04T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/02/04/moved-blog</id>
+    <id>http://jason-green-io.github.io/blog/2014/02/04/moved-blog</id>
     <content type="html"><![CDATA[<p>Title: going down the markdown hole
 Date: 2014-02-04
 Status: published</p>
@@ -44,9 +44,9 @@ Status: published</p>
   
   <entry>
     <title type="html"><![CDATA[Prompt Vim Tmux]]></title>
-    <link href="http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/01/29/Prompt-vim-tmux/"/>
     <updated>2014-01-29T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux</id>
+    <id>http://jason-green-io.github.io/blog/2014/01/29/Prompt-vim-tmux</id>
     <content type="html"><![CDATA[<p>Title: Prompt, vim and tmux issues and how to fix them
 Date: 2014-01-29
 Status: draft</p>
@@ -59,9 +59,9 @@ Status: draft</p>
   
   <entry>
     <title type="html"><![CDATA[0xee]]></title>
-    <link href="http://jason.green.io/blog/2014/01/29/0xEE/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/01/29/0xEE/"/>
     <updated>2014-01-29T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/29/0xEE</id>
+    <id>http://jason-green-io.github.io/blog/2014/01/29/0xEE</id>
     <content type="html"><![CDATA[<p>Title: stupid JBOD
 Date: 2014-01-29
 Status: draft</p>
@@ -72,9 +72,9 @@ Status: draft</p>
   
   <entry>
     <title type="html"><![CDATA[3d Clips]]></title>
-    <link href="http://jason.green.io/blog/2014/01/12/3D-clips/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/01/12/3D-clips/"/>
     <updated>2014-01-12T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/12/3D-clips</id>
+    <id>http://jason-green-io.github.io/blog/2014/01/12/3D-clips</id>
     <content type="html"><![CDATA[<p>Title: 3D printed Apple wireless keyboard clips
 Date: 2014-1-12
 Status: draft</p>
@@ -87,9 +87,9 @@ Status: draft</p>
   
   <entry>
     <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://jason.green.io/blog/2014/01/11/Test-post/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/01/11/Test-post/"/>
     <updated>2014-01-11T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/11/Test-post</id>
+    <id>http://jason-green-io.github.io/blog/2014/01/11/Test-post</id>
     <content type="html"><![CDATA[<p>Title: Test post
 Date: 2014-1-11
 Tags:
@@ -149,9 +149,9 @@ used in the bibliography.</p>
   
   <entry>
     <title type="html"><![CDATA[Belkin Aircast]]></title>
-    <link href="http://jason.green.io/blog/2014/01/10/belkin-aircast/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/01/10/belkin-aircast/"/>
     <updated>2014-01-10T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/10/belkin-aircast</id>
+    <id>http://jason-green-io.github.io/blog/2014/01/10/belkin-aircast</id>
     <content type="html"><![CDATA[<p>Title: Belkin AirCast
 Date: 2014-1-10 3:5:0
 Tags:</p>
@@ -164,9 +164,9 @@ Tags:</p>
   
   <entry>
     <title type="html"><![CDATA[Markdown Time]]></title>
-    <link href="http://jason.green.io/blog/2014/01/01/markdown-time/"/>
+    <link href="http://jason-green-io.github.io/blog/2014/01/01/markdown-time/"/>
     <updated>2014-01-01T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/01/markdown-time</id>
+    <id>http://jason-green-io.github.io/blog/2014/01/01/markdown-time</id>
     <content type="html"><![CDATA[<p>Title: markdown time
 Date: 2014-1-1 10:32:0
 Tags:</p>
@@ -177,9 +177,9 @@ Tags:</p>
   
   <entry>
     <title type="html"><![CDATA[The Wallet]]></title>
-    <link href="http://jason.green.io/blog/2013/12/16/the-wallet/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/12/16/the-wallet/"/>
     <updated>2013-12-16T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/12/16/the-wallet</id>
+    <id>http://jason-green-io.github.io/blog/2013/12/16/the-wallet</id>
     <content type="html"><![CDATA[<p>Title: T.H.E. Wallet
 Date: 2013-12-16 16:30:0
 Tags:</p>
@@ -194,9 +194,9 @@ Tags:</p>
   
   <entry>
     <title type="html"><![CDATA[Amazing Robotic Projection Mapping With]]></title>
-    <link href="http://jason.green.io/blog/2013/09/24/amazing-robotic-projection-mapping-with/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/09/24/amazing-robotic-projection-mapping-with/"/>
     <updated>2013-09-24T00:00:00+01:00</updated>
-    <id>http://jason.green.io/blog/2013/09/24/amazing-robotic-projection-mapping-with</id>
+    <id>http://jason-green-io.github.io/blog/2013/09/24/amazing-robotic-projection-mapping-with</id>
     <content type="html"><![CDATA[<p>Title: Amazing robotic projection mapping with beautiful animation. Must See. <a href="http://t.co/EvMomQyjQk">http://t.co/EvMomQyjQk</a>
 Date: 2013-9-24 14:45:0
 Tags:</p>
@@ -207,24 +207,24 @@ Tags:</p>
   
   <entry>
     <title type="html"><![CDATA[Who Remember Last Time I Did This]]></title>
-    <link href="http://jason.green.io/blog/2013/05/19/who-remember-last-time-i-did-this/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/05/19/who-remember-last-time-i-did-this/"/>
     <updated>2013-05-19T00:00:00+01:00</updated>
-    <id>http://jason.green.io/blog/2013/05/19/who-remember-last-time-i-did-this</id>
+    <id>http://jason-green-io.github.io/blog/2013/05/19/who-remember-last-time-i-did-this</id>
     <content type="html"><![CDATA[<p>Title: Who remembers the last time I did this?
 Date: 2013-5-19 19:27:0
 Tags: #app.net #facebook #twitter</p>
 
 <p><img src="https://lh6.googleusercontent.com/-6ArcswiK6_E/UZlZiLuUXQI/AAAAAAAAIzI/0CV9dYHzVTc/s640/blogger-image-971892070.jpg" alt="blogger-image-971892070.jpg" /></p>
 
-<p>See <a href="http://jason.green.io/pizzafire">here</a></p>
+<p>See <a href="http://jason-green-io.github.io/pizzafire">here</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Surprised by Movie for First Time In]]></title>
-    <link href="http://jason.green.io/blog/2013/05/16/surprised-by-movie-for-first-time-in/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/05/16/surprised-by-movie-for-first-time-in/"/>
     <updated>2013-05-16T00:00:00+01:00</updated>
-    <id>http://jason.green.io/blog/2013/05/16/surprised-by-movie-for-first-time-in</id>
+    <id>http://jason-green-io.github.io/blog/2013/05/16/surprised-by-movie-for-first-time-in</id>
     <content type="html"><![CDATA[<p>Title: Surprised by a movie for the first time in a while
 Date: 2013-5-16 22:23:0
 Tags: #app.net #facebook #twitter</p>
@@ -235,9 +235,9 @@ Tags: #app.net #facebook #twitter</p>
   
   <entry>
     <title type="html"><![CDATA[Thank You Bitly]]></title>
-    <link href="http://jason.green.io/blog/2013/04/25/thank-you-bitly/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/04/25/thank-you-bitly/"/>
     <updated>2013-04-25T00:00:00+01:00</updated>
-    <id>http://jason.green.io/blog/2013/04/25/thank-you-bitly</id>
+    <id>http://jason-green-io.github.io/blog/2013/04/25/thank-you-bitly</id>
     <content type="html"><![CDATA[<p>Title: Thank you bitly!
 Date: 2013-4-25 19:55:0
 Tags: #facebook #twitter #app.net</p>
@@ -248,9 +248,9 @@ Tags: #facebook #twitter #app.net</p>
   
   <entry>
     <title type="html"><![CDATA[Cheerio Chaps]]></title>
-    <link href="http://jason.green.io/blog/2013/04/23/cheerio-chaps/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/04/23/cheerio-chaps/"/>
     <updated>2013-04-23T00:00:00+01:00</updated>
-    <id>http://jason.green.io/blog/2013/04/23/cheerio-chaps</id>
+    <id>http://jason-green-io.github.io/blog/2013/04/23/cheerio-chaps</id>
     <content type="html"><![CDATA[<p>Title: Cheerio chaps!
 Date: 2013-4-23 17:1:0
 Tags: #facebook #twitter #app.net</p>
@@ -263,9 +263,9 @@ Tags: #facebook #twitter #app.net</p>
   
   <entry>
     <title type="html"><![CDATA[Pad Quill Little Pocket Book for Iphone]]></title>
-    <link href="http://jason.green.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone/"/>
     <updated>2013-02-26T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone</id>
+    <id>http://jason-green-io.github.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone</id>
     <content type="html"><![CDATA[<p>Title: Pad &amp; Quill Little Pocket Book for iPhone 5
 Date: 2013-2-26 18:10:0
 Tags: #twitter #facebook #app.net</p>
@@ -280,9 +280,9 @@ Tags: #twitter #facebook #app.net</p>
   
   <entry>
     <title type="html"><![CDATA[Xkcd Perl Problems]]></title>
-    <link href="http://jason.green.io/blog/2013/02/08/xkcd-perl-problems/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/02/08/xkcd-perl-problems/"/>
     <updated>2013-02-08T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/02/08/xkcd-perl-problems</id>
+    <id>http://jason-green-io.github.io/blog/2013/02/08/xkcd-perl-problems</id>
     <content type="html"><![CDATA[<p>Title: xkcd: Perl Problems
 Date: 2013-2-8 6:31:0
 Tags: #facebook #twitter</p>
@@ -295,9 +295,9 @@ Tags: #facebook #twitter</p>
   
   <entry>
     <title type="html"><![CDATA[Remote Adventures]]></title>
-    <link href="http://jason.green.io/blog/2013/01/23/remote-adventures/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/01/23/remote-adventures/"/>
     <updated>2013-01-23T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/01/23/remote-adventures</id>
+    <id>http://jason-green-io.github.io/blog/2013/01/23/remote-adventures</id>
     <content type="html"><![CDATA[<p>Title: remote adventures
 Date: 2013-01-23
 Status: draft</p>
@@ -318,9 +318,9 @@ Status: draft</p>
   
   <entry>
     <title type="html"><![CDATA[Achievement Unlocked Poop in Tub]]></title>
-    <link href="http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub/"/>
+    <link href="http://jason-green-io.github.io/blog/2013/01/01/achievement-unlocked-poop-in-tub/"/>
     <updated>2013-01-01T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub</id>
+    <id>http://jason-green-io.github.io/blog/2013/01/01/achievement-unlocked-poop-in-tub</id>
     <content type="html"><![CDATA[<p>Title: Achievement Unlocked, Poop in the Tub
 Date: 2013-1-1 18:29:0
 Tags: #facebook #twitter</p>
@@ -331,9 +331,9 @@ Tags: #facebook #twitter</p>
   
   <entry>
     <title type="html"><![CDATA[Fresh Off Truck]]></title>
-    <link href="http://jason.green.io/blog/2012/12/29/fresh-off-truck/"/>
+    <link href="http://jason-green-io.github.io/blog/2012/12/29/fresh-off-truck/"/>
     <updated>2012-12-29T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2012/12/29/fresh-off-truck</id>
+    <id>http://jason-green-io.github.io/blog/2012/12/29/fresh-off-truck</id>
     <content type="html"><![CDATA[<p>Title: Fresh off the truck!
 Date: 2012-12-29 17:27:0
 Tags: #facebook #twitter</p>
@@ -346,9 +346,9 @@ Tags: #facebook #twitter</p>
   
   <entry>
     <title type="html"><![CDATA[My Excellent View During Leonard Cohen_7]]></title>
-    <link href="http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7/"/>
+    <link href="http://jason-green-io.github.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7/"/>
     <updated>2012-12-07T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7</id>
+    <id>http://jason-green-io.github.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7</id>
     <content type="html"><![CDATA[<p>Title: My excellent view during the Leonard Cohen show
 Date: 2012-12-7 21:34:0
 Tags: #facebook #twitter</p>
@@ -361,9 +361,9 @@ Tags: #facebook #twitter</p>
   
   <entry>
     <title type="html"><![CDATA[New Ios Remote App and Itunes 11]]></title>
-    <link href="http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11/"/>
+    <link href="http://jason-green-io.github.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11/"/>
     <updated>2012-11-29T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11</id>
+    <id>http://jason-green-io.github.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11</id>
     <content type="html"><![CDATA[<p>Title: new iOS Remote app and iTunes 11
 Date: 2012-11-29 18:46:0
 Tags: #facebook #twitter</p>
