@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[jason.green.io]]></title>
+  <link href="http://jason.green.io/atom.xml" rel="self"/>
+  <link href="http://jason.green.io/"/>
+  <updated>2014-02-05T10:25:28+00:00</updated>
+  <id>http://jason.green.io/</id>
+  <author>
+    <name><![CDATA[jason@green.io]]></name>
+    <email><![CDATA[jason@green.io]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moved Blog]]></title>
+    <link href="http://jason.green.io/blog/2014/02/04/moved-blog/"/>
+    <updated>2014-02-04T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/02/04/moved-blog</id>
+    <content type="html"><![CDATA[<p>Title: going down the markdown hole
+Date: 2014-02-04
+Status: published</p>
+
+<p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here&rsquo;s how I did it.</p>
+
+<p><em>Platform</em></p>
+
+<p>Blogger is great. .. Blogger is great if you use a web browser on a non-mobile device. Sure they have an iOS app, but it sucks. The web interface to create posts and manage the blog is useless on iOS. I tried writing posts in plain text before copy/pasting into blogger, but then I have to markup the links, and that&rsquo;s annoying. What I&rsquo;m trying to say is blogger sucks.</p>
+
+<p>I want to be able to use vim to write a blog post. I want to be able to start writing somewhere and finish somewhere else. I want to be able to make the posts rich without using stupid wysiwyg toolbars. Enter Dropbox and markdown. Markdown allows me to markup everything easily, in plain text. Doesn&rsquo;t matter what editor you&rsquo;re using, it will always generate the same HTML. I save the posts to a folder in dropbox so they&rsquo;re available everywhere.</p>
+
+<p>Great, I can write posts, how do I publish them and where do they get published? I had 2 choices: <a href="http://scriptogr.am">http://scriptogr.am</a> and <a href="http://calepin.co">http://calepin.co</a>. They both essentially do the same thing, take markdown formatted text files in Dropbox and generate a static blog from them. Scriptogr.am has more features, but Calepin is simple and elegant. Calepin&rsquo;s backend is also open source, in case I have to move. I like that I can&rsquo;t change the theme, one less thing to worry about. Good, now we&rsquo;re in Calepin, how did I move my stuff from blogger?</p>
+
+<p><em>Convert</em></p>
+
+<p>I had to convert the blog (again). I took the Atom feed provided by blogger and threw it in this <a href="https://gist.github.com/larsks/4022537">script</a>. I changed the date format a bit to include the time. It wasn&rsquo;t perfect, I had to modify a couple posts for formatting. This generated about 500 files. Copy to Dropbox .. done.</p>
+
+<p><em>Writing tools</em></p>
+
+<p>Now I can use pretty much anything to write a post. As long as it ends up in Dropbox, it&rsquo;ll get posted. <a href="https://itunes.apple.com/gb/app/byword/id482063361?mt=8">Byword</a> has good markdown support, a bit clunky though. <a href="https://itunes.apple.com/gb/app/daedalus-touch-text-editor/id406964546?mt=8">Daedalus</a> is a great way of dealing with text files. It&rsquo;s not perfect yet, but it&rsquo;s the first app that I&rsquo;m actively submitting bugs for since I really like it. I can use vim to create posts if I feel like it. Dropbox obviously is where all the posts end up. Safe, backed up to the cloud.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Prompt Vim Tmux]]></title>
+    <link href="http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux/"/>
+    <updated>2014-01-29T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux</id>
+    <content type="html"><![CDATA[<p>Title: Prompt, vim and tmux issues and how to fix them
+Date: 2014-01-29
+Status: draft</p>
+
+<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screens or tmuxes status bar to the same background as your terminals default, this aberations go away.</p>
+
+<p>Also, not sure, but I think the latest update to Prompt fixed issues I was having in vim</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[0xee]]></title>
+    <link href="http://jason.green.io/blog/2014/01/29/0xEE/"/>
+    <updated>2014-01-29T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/01/29/0xEE</id>
+    <content type="html"><![CDATA[<p>Title: stupid JBOD
+Date: 2014-01-29
+Status: draft</p>
+
+<p><a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3d Clips]]></title>
+    <link href="http://jason.green.io/blog/2014/01/12/3D-clips/"/>
+    <updated>2014-01-12T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/01/12/3D-clips</id>
+    <content type="html"><![CDATA[<p>Title: 3D printed Apple wireless keyboard clips
+Date: 2014-1-12
+Status: draft</p>
+
+<p><img src="https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1" alt="W00t" /></p>
+
+<p>Got these made for 2 reasons. I didn&rsquo;t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had <a href="http://www.3dprint-uk.co.uk/">these</a> guys print the model from <a href="http://www.thingiverse.com/thing:147819">here</a>. I haven&rsquo;t tested them out much, looks promising.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test Post]]></title>
+    <link href="http://jason.green.io/blog/2014/01/11/Test-post/"/>
+    <updated>2014-01-11T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/01/11/Test-post</id>
+    <content type="html"><![CDATA[<p>Title: Test post
+Date: 2014-1-11
+Tags:
+Status: draft</p>
+
+<p>Hello world! Again, where&rsquo;s the title! It is missing from this post. Very odd indeed<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p>This is a statement that should be attributed to
+its source.</p>
+
+<p>And following is the description of the reference to be
+used in the bibliography.</p>
+
+<p>Hello</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="left"> First Header  </th>
+<th align="center"> Second Header </th>
+<th align="right"> Third Header         </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td align="left"> First row     </td>
+<td align="center"> Data          </td>
+<td align="right"> Very long data entry |</td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Second row    </td>
+<td align="center"> <strong>Cell</strong>      </td>
+<td align="right"> <em>Cell</em>               |</td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> Third row     </td>
+<td align="center"> Cell that spans across two columns  </td>
+<td align="right">|</td>
+</tr>
+</tbody>
+</table>
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>yup, works<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Belkin Aircast]]></title>
+    <link href="http://jason.green.io/blog/2014/01/10/belkin-aircast/"/>
+    <updated>2014-01-10T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/01/10/belkin-aircast</id>
+    <content type="html"><![CDATA[<p>Title: Belkin AirCast
+Date: 2014-1-10 3:5:0
+Tags:</p>
+
+<p><img src="https://lh6.googleusercontent.com/-G9VIRGzQ_NY/Us60dtq1fVI/AAAAAAAAJJY/lMN_aoN8fDo/s640/blogger-image--1287224511.jpg" alt="blogger-image--1287224511.jpg" /></p>
+
+<p>I own two of <a href="http://www.belkin.com/au/p/P-F4U037/">these</a> and Iove them. If you own a car with an AUX jack and no built in Bluetooth, this is a very easy way to add a USB to charge and wireless audio to listen to your podcasts (or Paul Simon). You can find them cheaper on eBay.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown Time]]></title>
+    <link href="http://jason.green.io/blog/2014/01/01/markdown-time/"/>
+    <updated>2014-01-01T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/01/01/markdown-time</id>
+    <content type="html"><![CDATA[<p>Title: markdown time
+Date: 2014-1-1 10:32:0
+Tags:</p>
+
+<p>I’ve started an <strong>experiment</strong>. I’m going to write blog posts using <a href="http://daringfireball.net/projects/markdown/syntax">markdown</a> and post entries using email. I wanted to use <a href="http://daedalusapp.com/">Daedalus Touch</a> however it doesn’t support exporting HTML to email, I’ve requested the feature. For now I’m using <a href="http://bywordapp.com/">Byword</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Wallet]]></title>
+    <link href="http://jason.green.io/blog/2013/12/16/the-wallet/"/>
+    <updated>2013-12-16T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2013/12/16/the-wallet</id>
+    <content type="html"><![CDATA[<p>Title: T.H.E. Wallet
+Date: 2013-12-16 16:30:0
+Tags:</p>
+
+<p>Bought a <a href="http://www.specopsbrand.com/t-h-e-wallet.html">new wallet</a>. It&rsquo;s huge, but so far I like it. Holds my passport, all my various ID (expats have a lot of ID) and then some. I liked the <a href="http://blog.green.io/2013/02/pad-quill-little-pocket-book-for-iphone.html">Pad and Quill</a> but it really only holds 4 cards, I had 7 in there, that made it bulge and ended up (I think) taking off the oliophobic coating of the iPhone 5.</p>
+
+<p>Combining my wallet with my phone seemed like a good idea at the time, but after months of use, I decided it wasn&rsquo;t for me. I now have the comfort of knowing that I have everything I possibly need, including 3 frequent customer stamp cards from <a href="http://www.properpasty.co.uk/">Proper Pasty</a> that until now have always been at home at the most inconvenient time. (That time being when standing directly in front of the Proper Pasty on the High street.) My iPhone is in a <a href="https://www.casecrown.com/smartphones/iphone-5/iphone-5-chameleon-glider-case">casecrown</a> case that <a href="http://twitter.com/davidmarkrich">@davidmarkrich</a> donated so that my phone wasn&rsquo;t exposed. Great case, I like having my slim phone back.</p>
+
+<p><img src="https://lh5.googleusercontent.com/-0PrxKcS8eoE/Uq70oRhNqrI/AAAAAAAAJFU/s2axXsoeVVY/s640/blogger-image-1211716582.jpg" alt="blogger-image-1211716582.jpg" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Amazing Robotic Projection Mapping With]]></title>
+    <link href="http://jason.green.io/blog/2013/09/24/amazing-robotic-projection-mapping-with/"/>
+    <updated>2013-09-24T00:00:00+01:00</updated>
+    <id>http://jason.green.io/blog/2013/09/24/amazing-robotic-projection-mapping-with</id>
+    <content type="html"><![CDATA[<p>Title: Amazing robotic projection mapping with beautiful animation. Must See. <a href="http://t.co/EvMomQyjQk">http://t.co/EvMomQyjQk</a>
+Date: 2013-9-24 14:45:0
+Tags:</p>
+
+<p><a href="http://t.co/EvMomQyjQk"> http://t.co/EvMomQyjQk </a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Who Remember Last Time I Did This]]></title>
+    <link href="http://jason.green.io/blog/2013/05/19/who-remember-last-time-i-did-this/"/>
+    <updated>2013-05-19T00:00:00+01:00</updated>
+    <id>http://jason.green.io/blog/2013/05/19/who-remember-last-time-i-did-this</id>
+    <content type="html"><![CDATA[<p>Title: Who remembers the last time I did this?
+Date: 2013-5-19 19:27:0
+Tags: #app.net #facebook #twitter</p>
+
+<p><img src="https://lh6.googleusercontent.com/-6ArcswiK6_E/UZlZiLuUXQI/AAAAAAAAIzI/0CV9dYHzVTc/s640/blogger-image-971892070.jpg" alt="blogger-image-971892070.jpg" /></p>
+
+<p>See <a href="http://jason.green.io/pizzafire">here</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Surprised by Movie for First Time In]]></title>
+    <link href="http://jason.green.io/blog/2013/05/16/surprised-by-movie-for-first-time-in/"/>
+    <updated>2013-05-16T00:00:00+01:00</updated>
+    <id>http://jason.green.io/blog/2013/05/16/surprised-by-movie-for-first-time-in</id>
+    <content type="html"><![CDATA[<p>Title: Surprised by a movie for the first time in a while
+Date: 2013-5-16 22:23:0
+Tags: #app.net #facebook #twitter</p>
+
+<p>Saw Star Trek: Into Darkness tonight. I sure am glad I didn&rsquo;t read anything about the plot. I was pleasantly surprised. I liked the switcheroos and regiggering of plot elements from the old films. Fantastic special effects. And the lens flares, oh man, let me tell you, those lens flares were VERY flary.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thank You Bitly]]></title>
+    <link href="http://jason.green.io/blog/2013/04/25/thank-you-bitly/"/>
+    <updated>2013-04-25T00:00:00+01:00</updated>
+    <id>http://jason.green.io/blog/2013/04/25/thank-you-bitly</id>
+    <content type="html"><![CDATA[<p>Title: Thank you bitly!
+Date: 2013-4-25 19:55:0
+Tags: #facebook #twitter #app.net</p>
+
+<p>I just noticed that bitly started allowing us mortals (the ones without their enterprise subscription  to redirect root domains! that means  can now redirect here!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cheerio Chaps]]></title>
+    <link href="http://jason.green.io/blog/2013/04/23/cheerio-chaps/"/>
+    <updated>2013-04-23T00:00:00+01:00</updated>
+    <id>http://jason.green.io/blog/2013/04/23/cheerio-chaps</id>
+    <content type="html"><![CDATA[<p>Title: Cheerio chaps!
+Date: 2013-4-23 17:1:0
+Tags: #facebook #twitter #app.net</p>
+
+<p>I don&rsquo;t know if they actually say that or not, but we&rsquo;re going to find out. We&rsquo;re moving to England for 3 years.</p>
+
+<p>We&rsquo;ll be in NB 3 &ndash; 6 May, moving sometime in late July. We&rsquo;ll be having a number of going away parties to get some use of our deck. For those who haven&rsquo;t visited us in Ottawa yet .. now would be a good time :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pad Quill Little Pocket Book for Iphone]]></title>
+    <link href="http://jason.green.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone/"/>
+    <updated>2013-02-26T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone</id>
+    <content type="html"><![CDATA[<p>Title: Pad &amp; Quill Little Pocket Book for iPhone 5
+Date: 2013-2-26 18:10:0
+Tags: #twitter #facebook #app.net</p>
+
+<p>I don&rsquo;t often do product reviews (ever? I this the first?). This product is so good and I&rsquo;m so happy with it that I have the need to share.</p>
+
+<p>I needed a case for my phone that could also replace my wallet. I didn&rsquo;t want the front to get scratched like my last iPhone. I ended up getting a <a href="http://www.dodocase.com/products/durables-wallet-for-iphone-4-5">DODOcase durables sleeve</a>. That case is now on sale on eBay. The pockets on it weren&rsquo;t adequate as a wallet replacement. Cards kept falling out. Then I found the <a href="http://www.padandquill.com/cases-for-iphone-ipod-touch/little-pocket-book-for-iphone-5.html">Pad &amp; Quill Little Pocket Book</a>. I love it. If you&rsquo;re looking to consolidate your wallet and iPhone, go buy one now. They&rsquo;re very well made and smell nice. (Yes, I said smell)</p>
+
+<p><em>Updated with product links &hellip; Mike.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Xkcd Perl Problems]]></title>
+    <link href="http://jason.green.io/blog/2013/02/08/xkcd-perl-problems/"/>
+    <updated>2013-02-08T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2013/02/08/xkcd-perl-problems</id>
+    <content type="html"><![CDATA[<p>Title: xkcd: Perl Problems
+Date: 2013-2-8 6:31:0
+Tags: #facebook #twitter</p>
+
+<p><img src="http://imgs.xkcd.com/comics/perl_problems.png" alt="regex rulez" /></p>
+
+<p>The peeps at work will most likely print this and put it on a wall.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Remote Adventures]]></title>
+    <link href="http://jason.green.io/blog/2013/01/23/remote-adventures/"/>
+    <updated>2013-01-23T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2013/01/23/remote-adventures</id>
+    <content type="html"><![CDATA[<p>Title: remote adventures
+Date: 2013-01-23
+Status: draft</p>
+
+<p><em>bash</em></p>
+
+<p>I&rsquo;ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an incase origami workspace, which I love. Here&rsquo;s something I learned. In bash when you type a long command (which takes time if you DON&rsquo;T have a keyboard) and notice you made a typo in the first character, you can type C-a to go to the beginning of the line and C-e to go to the end. Now, if you run screen, you&rsquo;d have to do a C-a C-a. Take a look at the readline section of the bash man page.</p>
+
+<p><em>tmux</em></p>
+
+<p>I discovered tmux. I&rsquo;m not sure how I feel about it yet. Seems alot of the common command are the same as screen, so that&rsquo;s good.</p>
+
+<p><em>RealVNC</em></p>
+
+<p>OS X screen sharing is good if you have a fast connection. But if you&rsquo;re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. RealVNc has a server for OS X, I&rsquo;m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Achievement Unlocked Poop in Tub]]></title>
+    <link href="http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub/"/>
+    <updated>2013-01-01T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub</id>
+    <content type="html"><![CDATA[<p>Title: Achievement Unlocked, Poop in the Tub
+Date: 2013-1-1 18:29:0
+Tags: #facebook #twitter</p>
+
+<p>Yup, it finally happened, my son pooped in the tub. Oh, you thought <em>I</em> did?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fresh Off Truck]]></title>
+    <link href="http://jason.green.io/blog/2012/12/29/fresh-off-truck/"/>
+    <updated>2012-12-29T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2012/12/29/fresh-off-truck</id>
+    <content type="html"><![CDATA[<p>Title: Fresh off the truck!
+Date: 2012-12-29 17:27:0
+Tags: #facebook #twitter</p>
+
+<p><img src="http://2.bp.blogspot.com/-g47axcWEeSQ/UN9ubdJXiDI/AAAAAAAAE1E/hZmXwvU4-Tk/s320/photo-775390.JPG" alt="mmmmm" /></p>
+
+<p><a href="http://www.beaus.ca/beer/pro-am/burnt-rock">Details here</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Excellent View During Leonard Cohen_7]]></title>
+    <link href="http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7/"/>
+    <updated>2012-12-07T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7</id>
+    <content type="html"><![CDATA[<p>Title: My excellent view during the Leonard Cohen show
+Date: 2012-12-7 21:34:0
+Tags: #facebook #twitter</p>
+
+<p>I hope I can put on a 3 hour show when I&rsquo;m 78.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-gFa_RZrirTk/UMKnBxQkDfI/AAAAAAAAErQ/wjmfJGnmayQ/s640/blogger-image-857273359.jpg" alt="blogger-image-857273359.jpg" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Ios Remote App and Itunes 11]]></title>
+    <link href="http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11/"/>
+    <updated>2012-11-29T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11</id>
+    <content type="html"><![CDATA[<p>Title: new iOS Remote app and iTunes 11
+Date: 2012-11-29 18:46:0
+Tags: #facebook #twitter</p>
+
+<p>Wow, HUGE improvement. Thank you Apple. The experience is so much better. The Remote app feels like iTunes, the way it&rsquo;s supposed to be. If you haven&rsquo;t updated .. Go, now!</p>
+
+<p>Now if only they applied this design to the Music app.</p>
+]]></content>
+  </entry>
+  
+</feed>
