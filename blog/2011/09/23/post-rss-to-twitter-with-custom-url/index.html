@@ -1,0 +1,18 @@
+<p>I&rsquo;ve been doing some experimenting and I believe I&rsquo;ve figured how to do this with tools already out there (without building your own solution and hosting it). All you need is an RSS feed, a domain you control and a twitter account.</p>
+
+<ol>
+<li> Start with logging in to <a href="http://bitly.com/">bitly.com</a> with your twitter (or create a new account)</li>
+<li> Setup your custom domain (this is where you need access to your DNS records)</li>
+<li> Get your API login and API password <a href="http://bit.ly/account/your_api_key">here</a>, you&rsquo;ll need these later.</li>
+<li> Log in to <a href="http://twitterfeed.com/">twitterfeed.com</a>, I used my Blogger openID.</li>
+<li> Create a new feed using the rss URL of your choice. I used my Blogger blog.</li>
+<li> In the advanced settings, setup bitly as your shortener and use the API credentials.</li>
+<li> Done</li>
+</ol>
+
+
+<p>Then you write a blog post about how you did it and see if it worked. The one thing I don&rsquo;t like is when you have twitter connected to Facebook, your custom link gets converted to a t.co address. They must do it for safety, but it still sucks. Brand is important.</p>
+
+<p>Update: Only issue I find is that the root of your domain gets taken over by bitly; you have to pay them a little less than 1000$ per month to get the ability to redirect it.</p>
+
+<p>Update 2: Forget everything I said and use <a href="http://greener.ca/yourls">yourls</a></p>
