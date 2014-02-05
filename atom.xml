@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason-green-io.github.io/atom.xml" rel="self"/>
   <link href="http://jason-green-io.github.io/"/>
-  <updated>2014-02-05T22:17:47+00:00</updated>
+  <updated>2014-02-05T22:23:48+00:00</updated>
   <id>http://jason-green-io.github.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -50,21 +50,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[0xee]]></title>
-    <link href="http://jason-green-io.github.io/blog/2014/01/29/0xEE/"/>
-    <updated>2014-01-29T00:00:00+00:00</updated>
-    <id>http://jason-green-io.github.io/blog/2014/01/29/0xEE</id>
-    <content type="html"><![CDATA[<hr />
-
-<p>title: &ldquo;stupid JBOD&rdquo;
-date: 2014-01-29
-Status: draft</p>
-
-<p><a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[3D Printed Apple Wireless Keyboard Clips]]></title>
     <link href="http://jason-green-io.github.io/blog/2014/01/12/3D-clips/"/>
     <updated>2014-01-12T00:00:00+00:00</updated>
@@ -72,63 +57,6 @@ Status: draft</p>
     <content type="html"><![CDATA[<p><img src="https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1" alt="W00t" /></p>
 
 <p>Got these made for 2 reasons. I didn&rsquo;t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had <a href="http://www.3dprint-uk.co.uk/">these</a> guys print the model from <a href="http://www.thingiverse.com/thing:147819">here</a>. I haven&rsquo;t tested them out much, looks promising.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://jason-green-io.github.io/blog/2014/01/11/Test-post/"/>
-    <updated>2014-01-11T00:00:00+00:00</updated>
-    <id>http://jason-green-io.github.io/blog/2014/01/11/Test-post</id>
-    <content type="html"><![CDATA[<p>Hello world! Again, where&rsquo;s the title! It is missing from this post. Very odd indeed<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
-
-<p>This is a statement that should be attributed to
-its source.</p>
-
-<p>And following is the description of the reference to be
-used in the bibliography.</p>
-
-<p>Hello</p>
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th align="left"> First Header  </th>
-<th align="center"> Second Header </th>
-<th align="right"> Third Header         </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td align="left"> First row     </td>
-<td align="center"> Data          </td>
-<td align="right"> Very long data entry |</td>
-</tr>
-<tr>
-<td></td>
-<td align="left"> Second row    </td>
-<td align="center"> <strong>Cell</strong>      </td>
-<td align="right"> <em>Cell</em>               |</td>
-</tr>
-<tr>
-<td></td>
-<td align="left"> Third row     </td>
-<td align="center"> Cell that spans across two columns  </td>
-<td align="right">|</td>
-</tr>
-</tbody>
-</table>
-
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>yup, works<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -302,6 +230,26 @@ Status: draft</p>
     <content type="html"><![CDATA[<p>Wow, HUGE improvement. Thank you Apple. The experience is so much better. The Remote app feels like iTunes, the way it&rsquo;s supposed to be. If you haven&rsquo;t updated .. Go, now!</p>
 
 <p>Now if only they applied this design to the Music app.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Future Leaders Having Fun]]></title>
+    <link href="http://jason-green-io.github.io/blog/2012/10/19/my-future-leaders/"/>
+    <updated>2012-10-19T20:41:00+01:00</updated>
+    <id>http://jason-green-io.github.io/blog/2012/10/19/my-future-leaders</id>
+    <content type="html"><![CDATA[<p><a href="http://gangnamstylenews.com/video/1459/gangnam-style-royal-military-college-of-canada/">GANGNAM STYLE: ROYAL MILITARY COLLEGE OF CANADA</a></p>
+
+<h1>twitter #facebook</h1>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[@mcd_canada I'm Sick and Tired of Getting Sausage and Egg Mcmuffins When I Order Sausage Mcmuffins]]></title>
+    <link href="http://jason-green-io.github.io/blog/2012/09/15/mcdcanada-im-sick-and-tired-of-getting/"/>
+    <updated>2012-09-15T13:40:00+01:00</updated>
+    <id>http://jason-green-io.github.io/blog/2012/09/15/mcdcanada-im-sick-and-tired-of-getting</id>
+    <content type="html"><![CDATA[<p><img src="http://3.bp.blogspot.com/-XIw7_wJNGGk/UFS9qG98dQI/AAAAAAAAETQ/omZPMEsKp6Y/s320/image-755774.jpeg" alt="argh!" /></p>
 ]]></content>
   </entry>
   
