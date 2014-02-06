@@ -9,7 +9,7 @@
   <meta name="author" content="jason@green.io">
 
   
-  <meta name="description" content="Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, &hellip;">
+  <meta name="description" content="calepin is nice, but it seems it&rsquo;s not really supported anymore. So I ventured to run pelican myself on sdf. Alas the VHOST and DNS memberships &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +63,71 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-06T00:00:00+00:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://calepin.co/">calepin</a> is nice, but it seems it&rsquo;s not really supported anymore.</p>
+
+<p>So I ventured to run <a href="http://pelican.readthedocs.org/">pelican</a> myself on <a href="http://sdf.org/">sdf</a>. Alas the VHOST and DNS memberships don&rsquo;t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards <a href="jekyllrb.com">jekyll</a> and even <a href="octopress.org">octopress</a>. So here I am. I had to convert my posts from <a href="http://scriptogr.am">scriptog.am</a> / <a href="http://calepin.co/">calepin</a> / <a href="http://pelican.readthedocs.org/">pelican</a> format to something with a YAML front matter.</p>
+
+<p>This worked:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'><span class="c">#Mac OS X .. ymmv</span>
+</span><span class='line'><span class="k">for </span>i in <span class="nv">$1</span>/*.md; <span class="k">do</span>
+</span><span class='line'><span class="k">    </span>sed -i <span class="s1">&#39;&#39;</span> -e <span class="s1">&#39;s/Tags:/tags:/&#39;</span> <span class="se">\</span>
+</span><span class='line'>    -e <span class="s1">&#39;s/Title:/title:/&#39;</span> <span class="se">\</span>
+</span><span class='line'>    -e <span class="s1">&#39;s/Date:/date:/&#39;</span> <span class="se">\</span>
+</span><span class='line'>    -e <span class="s1">&#39;/title:/i\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="s1">&#39; \</span>
+</span><span class='line'><span class="s1">    -e &#39;</span>/title:/i<span class="se">\&#39;</span><span class="s1">$&#39;\n&#39;&#39;layout: post&#39;</span> <span class="se">\</span>
+</span><span class='line'>    -e <span class="s1">&#39;/tags:/a\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="err">&#39;</span> <span class="s2">&quot;$i&quot;</span>
+</span><span class='line'><span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -416,42 +481,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/25/thank-you-bitly/">Thank You Bitly!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-25T19:55:00+01:00" pubdate data-updated="true">Apr 25<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I just noticed that bitly started allowing us mortals (the ones without their enterprise subscription  to redirect root domains! that means  can now redirect here!</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -467,6 +496,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/02/04/moved-blog/">Going Down the Markdown Hole</a>
       </li>
     
@@ -480,10 +513,6 @@
     
       <li class="post">
         <a href="/blog/2014/01/10/belkin-aircast/">Belkin AirCast</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/01/markdown-time/">Markdown Time</a>
       </li>
     
   </ul>
