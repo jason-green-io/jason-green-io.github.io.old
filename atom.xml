@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-06T08:08:29+00:00</updated>
+  <updated>2014-02-06T08:18:31+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -173,7 +173,8 @@
     <id>http://jason.green.io/blog/2013/01/23/remote-adventures</id>
     <content type="html"><![CDATA[<hr />
 
-<p>title: &ldquo;remote adventures&rdquo;
+<p>layout: post
+title: &ldquo;remote adventures&rdquo;
 date: 2013-01-23
 Status: draft</p>
 
