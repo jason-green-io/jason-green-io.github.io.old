@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-07T20:47:52+00:00</updated>
+  <updated>2014-02-07T21:18:09+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -14,26 +14,19 @@
 
   
   <entry>
-    
     <title type="html"><![CDATA[stupid JBOD]]></title>
     <link href="http://jason.green.io/blog/2014/02/06/0xEE/"/>
-    
     <updated>2014-02-06T21:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/06/0xEE</id>
-    
     <content type="html"><![CDATA[<p>I own a 4 * SATA to USB disk enclosure, <a href="http://www.sansdigital.com/towerraid/tr4u.html">this one</a>. It was great until I plugged it into 220V without switching the power supply, oops. Now it’s a door stop. One of the disks was hosting our iTunes library, so obviously I required access to that one disk. This particular model supports RAID configs. To do this, it adds an abstraction layer between the USB controller and the SATA, to turn multiple disks to one (it is a JBOD after all). I ran into problems when I used my portable SATA to USB cable to mount it on my Mac Mini server. Didn’t mount. Seems this abstraction layer formats the disks (even if they’re not setup as RAID) using a hybrid partition table. fdisk shows it as EE (protected partition or something). This <a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">post</a> saved the day. I was sweating a little bit until I found the answer.</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[well that was fast]]></title>
     <link href="http://jason.green.io/blog/2014/02/06/movedagain/"/>
-    
     <updated>2014-02-06T12:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/06/movedagain</id>
-    
     <content type="html"><![CDATA[<p><a href="http://calepin.co/">calepin</a> is nice, but it seems it’s not really supported anymore.</p>
 
 <p>So I ventured to run <a href="http://pelican.readthedocs.org/">pelican</a> myself on <a href="http://sdf.org/">sdf</a>. Alas the VHOST and DNS memberships don’t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards <a href="jekyllrb.com">jekyll</a> and even <a href="octopress.org">octopress</a>. So here I am. I had to convert my posts from <a href="http://scriptogr.am">scriptog.am</a> / <a href="http://calepin.co/">calepin</a> / <a href="http://pelican.readthedocs.org/">pelican</a> format to something with a YAML front matter.</p>
@@ -63,17 +56,13 @@
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[going down the markdown hole]]></title>
     <link href="http://jason.green.io/blog/2014/02/04/moved-blog/"/>
-    
     <updated>2014-02-04T00:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/04/moved-blog</id>
-    
     <content type="html"><![CDATA[<p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here’s how I did it.</p>
 
 <p><em>Platform</em></p>
@@ -92,78 +81,58 @@
 
 <p>Now I can use pretty much anything to write a post. As long as it ends up in Dropbox, it’ll get posted. <a href="https://itunes.apple.com/gb/app/byword/id482063361?mt=8">Byword</a> has good markdown support, a bit clunky though. <a href="https://itunes.apple.com/gb/app/daedalus-touch-text-editor/id406964546?mt=8">Daedalus</a> is a great way of dealing with text files. It’s not perfect yet, but it’s the first app that I’m actively submitting bugs for since I really like it. I can use vim to create posts if I feel like it. Dropbox obviously is where all the posts end up. Safe, backed up to the cloud.</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Prompt, vim and tmux issues and how to fix them]]></title>
     <link href="http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux/"/>
-    
     <updated>2014-01-29T00:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux</id>
-    
     <content type="html"><![CDATA[<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screens or tmuxes status bar to the same background as your terminals default, this aberations go away.</p>
 
 <p>Also, not sure, but I think the latest update to Prompt fixed issues I was having in vim</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[3D printed Apple wireless keyboard clips]]></title>
     <link href="http://jason.green.io/blog/2014/01/12/3D-clips/"/>
-    
     <updated>2014-01-12T00:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/01/12/3D-clips</id>
-    
     <content type="html"><![CDATA[<p><img src="https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1" alt="W00t" /></p>
 
 <p>Got these made for 2 reasons. I didn’t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had <a href="http://www.3dprint-uk.co.uk/">these</a> guys print the model from <a href="http://www.thingiverse.com/thing:147819">here</a>. I haven’t tested them out much, looks promising.</p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Belkin AirCast]]></title>
     <link href="http://jason.green.io/blog/2014/01/10/belkin-aircast/"/>
-    
     <updated>2014-01-10T03:05:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/01/10/belkin-aircast</id>
-    
     <content type="html"><![CDATA[<p><img src="https://lh6.googleusercontent.com/-G9VIRGzQ_NY/Us60dtq1fVI/AAAAAAAAJJY/lMN_aoN8fDo/s640/blogger-image--1287224511.jpg" alt="blogger-image--1287224511.jpg" /></p>
 
 <p>I own two of <a href="http://www.belkin.com/au/p/P-F4U037/">these</a> and Iove them. If you own a car with an AUX jack and no built in Bluetooth, this is a very easy way to add a USB to charge and wireless audio to listen to your podcasts (or Paul Simon). You can find them cheaper on eBay.</p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[markdown time]]></title>
     <link href="http://jason.green.io/blog/2014/01/01/markdown-time/"/>
-    
     <updated>2014-01-01T10:32:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/01/01/markdown-time</id>
-    
     <content type="html"><![CDATA[<p>I’ve started an <strong>experiment</strong>. I’m going to write blog posts using <a href="http://daringfireball.net/projects/markdown/syntax">markdown</a> and post entries using email. I wanted to use <a href="http://daedalusapp.com/">Daedalus Touch</a> however it doesn’t support exporting HTML to email, I’ve requested the feature. For now I’m using <a href="http://bywordapp.com/">Byword</a>.</p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[T.H.E. Wallet]]></title>
     <link href="http://jason.green.io/blog/2013/12/16/the-wallet/"/>
-    
     <updated>2013-12-16T16:30:00+00:00</updated>
     <id>http://jason.green.io/blog/2013/12/16/the-wallet</id>
-    
     <content type="html"><![CDATA[<p>Bought a <a href="http://www.specopsbrand.com/t-h-e-wallet.html">new wallet</a>. It’s huge, but so far I like it. Holds my passport, all my various ID (expats have a lot of ID) and then some. I liked the <a href="http://blog.green.io/2013/02/pad-quill-little-pocket-book-for-iphone.html">Pad and Quill</a> but it really only holds 4 cards, I had 7 in there, that made it bulge and ended up (I think) taking off the oliophobic coating of the iPhone 5.</p>
 
 <p>Combining my wallet with my phone seemed like a good idea at the time, but after months of use, I decided it wasn’t for me. I now have the comfort of knowing that I have everything I possibly need, including 3 frequent customer stamp cards from <a href="http://www.properpasty.co.uk/">Proper Pasty</a> that until now have always been at home at the most inconvenient time. (That time being when standing directly in front of the Proper Pasty on the High street.) My iPhone is in a <a href="https://www.casecrown.com/smartphones/iphone-5/iphone-5-chameleon-glider-case">casecrown</a> case that <a href="http://twitter.com/davidmarkrich">@davidmarkrich</a> donated so that my phone wasn’t exposed. Great case, I like having my slim phone back.</p>
@@ -171,88 +140,64 @@
 <p><img src="https://lh5.googleusercontent.com/-0PrxKcS8eoE/Uq70oRhNqrI/AAAAAAAAJFU/s2axXsoeVVY/s640/blogger-image-1211716582.jpg" alt="blogger-image-1211716582.jpg" /></p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Amazing robotic projection mapping with beautiful animation. Must See. http://t.co/EvMomQyjQk]]></title>
     <link href="http://jason.green.io/blog/2013/09/24/amazing-robotic-projection-mapping-with/"/>
-    
     <updated>2013-09-24T14:45:00+01:00</updated>
     <id>http://jason.green.io/blog/2013/09/24/amazing-robotic-projection-mapping-with</id>
-    
     <content type="html"><![CDATA[<p><a href="http://t.co/EvMomQyjQk"> http://t.co/EvMomQyjQk </a></p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Who remembers the last time I did this?]]></title>
     <link href="http://jason.green.io/blog/2013/05/19/who-remember-last-time-i-did-this/"/>
-    
     <updated>2013-05-19T19:27:00+01:00</updated>
     <id>http://jason.green.io/blog/2013/05/19/who-remember-last-time-i-did-this</id>
-    
     <content type="html"><![CDATA[<p><img src="https://lh6.googleusercontent.com/-6ArcswiK6_E/UZlZiLuUXQI/AAAAAAAAIzI/0CV9dYHzVTc/s640/blogger-image-971892070.jpg" alt="blogger-image-971892070.jpg" /></p>
 
 <p>See <a href="http://jason.green.io/pizzafire">here</a></p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Surprised by a movie for the first time in a while]]></title>
     <link href="http://jason.green.io/blog/2013/05/16/surprised-by-movie-for-first-time-in/"/>
-    
     <updated>2013-05-16T22:23:00+01:00</updated>
     <id>http://jason.green.io/blog/2013/05/16/surprised-by-movie-for-first-time-in</id>
-    
     <content type="html"><![CDATA[<p>Saw Star Trek: Into Darkness tonight. I sure am glad I didn’t read anything about the plot. I was pleasantly surprised. I liked the switcheroos and regiggering of plot elements from the old films. Fantastic special effects. And the lens flares, oh man, let me tell you, those lens flares were VERY flary.</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Thank you bitly!]]></title>
     <link href="http://jason.green.io/blog/2013/04/25/thank-you-bitly/"/>
-    
     <updated>2013-04-25T19:55:00+01:00</updated>
     <id>http://jason.green.io/blog/2013/04/25/thank-you-bitly</id>
-    
     <content type="html"><![CDATA[<p>I just noticed that bitly started allowing us mortals (the ones without their enterprise subscription  to redirect root domains! that means  can now redirect here!</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Cheerio chaps!]]></title>
     <link href="http://jason.green.io/blog/2013/04/23/cheerio-chaps/"/>
-    
     <updated>2013-04-23T17:01:00+01:00</updated>
     <id>http://jason.green.io/blog/2013/04/23/cheerio-chaps</id>
-    
     <content type="html"><![CDATA[<p>I don’t know if they actually say that or not, but we’re going to find out. We’re moving to England for 3 years.</p>
 
 <p>We’ll be in NB 3 - 6 May, moving sometime in late July. We’ll be having a number of going away parties to get some use of our deck. For those who haven’t visited us in Ottawa yet .. now would be a good time :)</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Pad & Quill Little Pocket Book for iPhone 5]]></title>
     <link href="http://jason.green.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone/"/>
-    
     <updated>2013-02-26T18:10:00+00:00</updated>
     <id>http://jason.green.io/blog/2013/02/26/pad-quill-little-pocket-book-for-iphone</id>
-    
     <content type="html"><![CDATA[<p>I don’t often do product reviews (ever? I this the first?). This product is so good and I’m so happy with it that I have the need to share.</p>
 
 <p>I needed a case for my phone that could also replace my wallet. I didn’t want the front to get scratched like my last iPhone. I ended up getting a <a href="http://www.dodocase.com/products/durables-wallet-for-iphone-4-5">DODOcase durables sleeve</a>. That case is now on sale on eBay. The pockets on it weren’t adequate as a wallet replacement. Cards kept falling out. Then I found the <a href="http://www.padandquill.com/cases-for-iphone-ipod-touch/little-pocket-book-for-iphone-5.html">Pad &amp; Quill Little Pocket Book</a>. I love it. If you’re looking to consolidate your wallet and iPhone, go buy one now. They’re very well made and smell nice. (Yes, I said smell)</p>
@@ -260,98 +205,73 @@
 <p><em>Updated with product links … Mike.</em></p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[xkcd: Perl Problems]]></title>
     <link href="http://jason.green.io/blog/2013/02/08/xkcd-perl-problems/"/>
-    
     <updated>2013-02-08T06:31:00+00:00</updated>
     <id>http://jason.green.io/blog/2013/02/08/xkcd-perl-problems</id>
-    
     <content type="html"><![CDATA[<p><img src="http://imgs.xkcd.com/comics/perl_problems.png" alt="regex rulez" /></p>
 
 <p>The peeps at work will most likely print this and put it on a wall.</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Achievement Unlocked, Poop in the Tub]]></title>
     <link href="http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub/"/>
-    
     <updated>2013-01-01T18:29:00+00:00</updated>
     <id>http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub</id>
-    
     <content type="html"><![CDATA[<p>Yup, it finally happened, my son pooped in the tub. Oh, you thought <em>I</em> did?</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Fresh off the truck!]]></title>
     <link href="http://jason.green.io/blog/2012/12/29/fresh-off-truck/"/>
-    
     <updated>2012-12-29T17:27:00+00:00</updated>
     <id>http://jason.green.io/blog/2012/12/29/fresh-off-truck</id>
-    
     <content type="html"><![CDATA[<p><img src="http://2.bp.blogspot.com/-g47axcWEeSQ/UN9ubdJXiDI/AAAAAAAAE1E/hZmXwvU4-Tk/s320/photo-775390.JPG" alt="mmmmm" /></p>
 
 <p><a href="http://www.beaus.ca/beer/pro-am/burnt-rock">Details here</a></p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[My excellent view during the Leonard Cohen show]]></title>
     <link href="http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7/"/>
-    
     <updated>2012-12-07T21:34:00+00:00</updated>
     <id>http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7</id>
-    
     <content type="html"><![CDATA[<p>I hope I can put on a 3 hour show when I’m 78.</p>
 
 <p><img src="https://lh6.googleusercontent.com/-gFa_RZrirTk/UMKnBxQkDfI/AAAAAAAAErQ/wjmfJGnmayQ/s640/blogger-image-857273359.jpg" alt="blogger-image-857273359.jpg" /></p>
 
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[new iOS Remote app and iTunes 11]]></title>
     <link href="http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11/"/>
-    
     <updated>2012-11-29T18:46:00+00:00</updated>
     <id>http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11</id>
-    
     <content type="html"><![CDATA[<p>Wow, HUGE improvement. Thank you Apple. The experience is so much better. The Remote app feels like iTunes, the way it’s supposed to be. If you haven’t updated .. Go, now!</p>
 
 <p>Now if only they applied this design to the Music app.</p>
 ]]></content>
-    
   </entry>
   
   <entry>
-    
     <title type="html"><![CDATA[Future leaders having fun]]></title>
     <link href="http://jason.green.io/blog/2012/10/19/my-future-leaders/"/>
-    
     <updated>2012-10-19T20:41:00+01:00</updated>
     <id>http://jason.green.io/blog/2012/10/19/my-future-leaders</id>
-    
     <content type="html"><![CDATA[<p><a href="http://gangnamstylenews.com/video/1459/gangnam-style-royal-military-college-of-canada/">GANGNAM STYLE: ROYAL MILITARY COLLEGE OF CANADA</a></p>
 
 <h1 id="twitter-facebook">twitter #facebook</h1>
 
 ]]></content>
-    
   </entry>
   
 </feed>
