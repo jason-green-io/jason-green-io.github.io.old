@@ -9,7 +9,7 @@
   <meta name="author" content="jason@green.io">
 
   
-  <meta name="description" content="calepin is nice, but it seems it&rsquo;s not really supported anymore. So I ventured to run pelican myself on sdf. Alas the VHOST and DNS memberships &hellip;">
+  <meta name="description" content="calepin is nice, but it seems it’s not really supported anymore. So I ventured to run pelican myself on sdf. Alas the VHOST and DNS memberships don’t &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,42 +82,40 @@
   
 
 
-<time datetime="2014-02-06T00:00:00+00:00" pubdate data-updated="true"></time>
+<time datetime="2014-02-06T12:00:00+00:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><a href="http://calepin.co/">calepin</a> is nice, but it seems it&rsquo;s not really supported anymore.</p>
+<div class="entry-content"><p><a href="http://calepin.co/">calepin</a> is nice, but it seems it’s not really supported anymore.</p>
 
-<p>So I ventured to run <a href="http://pelican.readthedocs.org/">pelican</a> myself on <a href="http://sdf.org/">sdf</a>. Alas the VHOST and DNS memberships don&rsquo;t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards <a href="jekyllrb.com">jekyll</a> and even <a href="octopress.org">octopress</a>. So here I am. I had to convert my posts from <a href="http://scriptogr.am">scriptog.am</a> / <a href="http://calepin.co/">calepin</a> / <a href="http://pelican.readthedocs.org/">pelican</a> format to something with a YAML front matter.</p>
+<p>So I ventured to run <a href="http://pelican.readthedocs.org/">pelican</a> myself on <a href="http://sdf.org/">sdf</a>. Alas the VHOST and DNS memberships don’t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards <a href="jekyllrb.com">jekyll</a> and even <a href="octopress.org">octopress</a>. So here I am. I had to convert my posts from <a href="http://scriptogr.am">scriptog.am</a> / <a href="http://calepin.co/">calepin</a> / <a href="http://pelican.readthedocs.org/">pelican</a> format to something with a YAML front matter.</p>
 
 <p>This worked:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'><span class="c">#Mac OS X .. ymmv</span>
-</span><span class='line'><span class="k">for </span>i in <span class="nv">$1</span>/*.md; <span class="k">do</span>
-</span><span class='line'><span class="k">    </span>sed -i <span class="s1">&#39;&#39;</span> -e <span class="s1">&#39;s/Tags:/tags:/&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;s/Title:/title:/&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;s/Date:/date:/&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;/title:/i\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="s1">&#39; \</span>
-</span><span class='line'><span class="s1">    -e &#39;</span>/title:/i<span class="se">\&#39;</span><span class="s1">$&#39;\n&#39;&#39;layout: post&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;/tags:/a\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="err">&#39;</span> <span class="s2">&quot;$i&quot;</span>
-</span><span class='line'><span class="k">done</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c">#!/bin/bash</span>
+</span><span class="line"><span class="c">#Mac OS X .. ymmv</span>
+</span><span class="line"><span class="k">for </span>i in <span class="nv">$1</span>/*.md; <span class="k">do</span>
+</span><span class="line"><span class="k">    </span>sed -i <span class="s1">&#39;&#39;</span> -e <span class="s1">&#39;s/Tags:/tags:/&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;s/Title:/title:/&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;s/Date:/date:/&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;/title:/i\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="s1">&#39; \</span>
+</span><span class="line"><span class="s1">    -e &#39;</span>/title:/i<span class="se">\&#39;</span><span class="s1">$&#39;\n&#39;&#39;layout: post&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;/tags:/a\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="err">&#39;</span> <span class="s2">&quot;$i&quot;</span>
+</span><span class="line"><span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 </div>
 
@@ -141,7 +139,7 @@
   
 
 
-<time datetime="2014-02-06T00:00:00+00:00" pubdate data-updated="true"></time>
+<time datetime="2014-02-06T12:00:00+00:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
       
 
 
@@ -158,8 +156,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/06/0xEE/" title="Previous Post: stupid JBOD">&laquo; stupid JBOD</a>
+        <a class="basic-alignment left" href="/blog/2014/02/04/moved-blog/" title="Previous Post: going down the markdown hole">&laquo; going down the markdown hole</a>
       
+      
+        <a class="basic-alignment right" href="/blog/2014/02/06/0xEE/" title="Next Post: stupid JBOD">stupid JBOD &raquo;</a>
       
     </p>
   </footer>
@@ -180,11 +180,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a>
+        <a href="/blog/2014/02/06/0xEE/">Stupid JBOD</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/02/06/0xEE/">Stupid JBOD</a>
+        <a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a>
       </li>
     
       <li class="post">

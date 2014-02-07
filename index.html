@@ -9,7 +9,7 @@
   <meta name="author" content="jason@green.io">
 
   
-  <meta name="description" content="calepin is nice, but it seems it&rsquo;s not really supported anymore. So I ventured to run pelican myself on sdf. Alas the VHOST and DNS memberships &hellip;">
+  <meta name="description" content="I own a 4 * SATA to USB disk enclosure, this one. It was great until I plugged it into 220V without switching the power supply, oops. Now it’s a door &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,71 +69,6 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-06T00:00:00+00:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://calepin.co/">calepin</a> is nice, but it seems it&rsquo;s not really supported anymore.</p>
-
-<p>So I ventured to run <a href="http://pelican.readthedocs.org/">pelican</a> myself on <a href="http://sdf.org/">sdf</a>. Alas the VHOST and DNS memberships don&rsquo;t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards <a href="jekyllrb.com">jekyll</a> and even <a href="octopress.org">octopress</a>. So here I am. I had to convert my posts from <a href="http://scriptogr.am">scriptog.am</a> / <a href="http://calepin.co/">calepin</a> / <a href="http://pelican.readthedocs.org/">pelican</a> format to something with a YAML front matter.</p>
-
-<p>This worked:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'><span class="c">#Mac OS X .. ymmv</span>
-</span><span class='line'><span class="k">for </span>i in <span class="nv">$1</span>/*.md; <span class="k">do</span>
-</span><span class='line'><span class="k">    </span>sed -i <span class="s1">&#39;&#39;</span> -e <span class="s1">&#39;s/Tags:/tags:/&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;s/Title:/title:/&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;s/Date:/date:/&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;/title:/i\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="s1">&#39; \</span>
-</span><span class='line'><span class="s1">    -e &#39;</span>/title:/i<span class="se">\&#39;</span><span class="s1">$&#39;\n&#39;&#39;layout: post&#39;</span> <span class="se">\</span>
-</span><span class='line'>    -e <span class="s1">&#39;/tags:/a\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="err">&#39;</span> <span class="s2">&quot;$i&quot;</span>
-</span><span class='line'><span class="k">done</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
       <h1 class="entry-title"><a href="/blog/2014/02/06/0xEE/">Stupid JBOD</a></h1>
     
     
@@ -150,14 +85,77 @@
   
 
 
-<time datetime="2014-02-06T00:00:00+00:00" pubdate data-updated="true"></time>
+<time datetime="2014-02-06T21:00:00+00:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>I own a 4 * SATA to USB disk enclosure, <a href="http://www.sansdigital.com/towerraid/tr4u.html">this one</a>. It was great until I plugged it into 220V without switching the power supply, oops. Now it&rsquo;s a door stop. One of the disks was hosting our iTunes library, so obviously I required access to that one disk. This particular model supports RAID configs. To do this, it adds an abstraction layer between the USB controller and the SATA, to turn multiple disks to one (it is a JBOD after all). I ran into problems when I used my portable SATA to USB cable to mount it on my Mac Mini server. Didn&rsquo;t mount. Seems this abstraction layer formats the disks (even if they&rsquo;re not setup as RAID) using a hybrid partition table. fdisk shows it as EE (protected partition or something). This <a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">post</a> saved the day. I was sweating a little bit until I found the answer.</p>
+  <div class="entry-content"><p>I own a 4 * SATA to USB disk enclosure, <a href="http://www.sansdigital.com/towerraid/tr4u.html">this one</a>. It was great until I plugged it into 220V without switching the power supply, oops. Now it’s a door stop. One of the disks was hosting our iTunes library, so obviously I required access to that one disk. This particular model supports RAID configs. To do this, it adds an abstraction layer between the USB controller and the SATA, to turn multiple disks to one (it is a JBOD after all). I ran into problems when I used my portable SATA to USB cable to mount it on my Mac Mini server. Didn’t mount. Seems this abstraction layer formats the disks (even if they’re not setup as RAID) using a hybrid partition table. fdisk shows it as EE (protected partition or something). This <a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">post</a> saved the day. I was sweating a little bit until I found the answer.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-06T12:00:00+00:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://calepin.co/">calepin</a> is nice, but it seems it’s not really supported anymore.</p>
+
+<p>So I ventured to run <a href="http://pelican.readthedocs.org/">pelican</a> myself on <a href="http://sdf.org/">sdf</a>. Alas the VHOST and DNS memberships don’t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards <a href="jekyllrb.com">jekyll</a> and even <a href="octopress.org">octopress</a>. So here I am. I had to convert my posts from <a href="http://scriptogr.am">scriptog.am</a> / <a href="http://calepin.co/">calepin</a> / <a href="http://pelican.readthedocs.org/">pelican</a> format to something with a YAML front matter.</p>
+
+<p>This worked:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c">#!/bin/bash</span>
+</span><span class="line"><span class="c">#Mac OS X .. ymmv</span>
+</span><span class="line"><span class="k">for </span>i in <span class="nv">$1</span>/*.md; <span class="k">do</span>
+</span><span class="line"><span class="k">    </span>sed -i <span class="s1">&#39;&#39;</span> -e <span class="s1">&#39;s/Tags:/tags:/&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;s/Title:/title:/&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;s/Date:/date:/&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;/title:/i\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="s1">&#39; \</span>
+</span><span class="line"><span class="s1">    -e &#39;</span>/title:/i<span class="se">\&#39;</span><span class="s1">$&#39;\n&#39;&#39;layout: post&#39;</span> <span class="se">\</span>
+</span><span class="line">    -e <span class="s1">&#39;/tags:/a\&#39;$&#39;</span><span class="se">\n</span><span class="s1">&#39;&#39;</span>---<span class="err">&#39;</span> <span class="s2">&quot;$i&quot;</span>
+</span><span class="line"><span class="k">done</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
 </div>
   
   
@@ -193,23 +191,23 @@
   </header>
 
 
-  <div class="entry-content"><p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here&rsquo;s how I did it.</p>
+  <div class="entry-content"><p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here’s how I did it.</p>
 
 <p><em>Platform</em></p>
 
-<p>Blogger is great. .. Blogger is great if you use a web browser on a non-mobile device. Sure they have an iOS app, but it sucks. The web interface to create posts and manage the blog is useless on iOS. I tried writing posts in plain text before copy/pasting into blogger, but then I have to markup the links, and that&rsquo;s annoying. What I&rsquo;m trying to say is blogger sucks.</p>
+<p>Blogger is great. .. Blogger is great if you use a web browser on a non-mobile device. Sure they have an iOS app, but it sucks. The web interface to create posts and manage the blog is useless on iOS. I tried writing posts in plain text before copy/pasting into blogger, but then I have to markup the links, and that’s annoying. What I’m trying to say is blogger sucks.</p>
 
-<p>I want to be able to use vim to write a blog post. I want to be able to start writing somewhere and finish somewhere else. I want to be able to make the posts rich without using stupid wysiwyg toolbars. Enter Dropbox and markdown. Markdown allows me to markup everything easily, in plain text. Doesn&rsquo;t matter what editor you&rsquo;re using, it will always generate the same HTML. I save the posts to a folder in dropbox so they&rsquo;re available everywhere.</p>
+<p>I want to be able to use vim to write a blog post. I want to be able to start writing somewhere and finish somewhere else. I want to be able to make the posts rich without using stupid wysiwyg toolbars. Enter Dropbox and markdown. Markdown allows me to markup everything easily, in plain text. Doesn’t matter what editor you’re using, it will always generate the same HTML. I save the posts to a folder in dropbox so they’re available everywhere.</p>
 
-<p>Great, I can write posts, how do I publish them and where do they get published? I had 2 choices: <a href="http://scriptogr.am">http://scriptogr.am</a> and <a href="http://calepin.co">http://calepin.co</a>. They both essentially do the same thing, take markdown formatted text files in Dropbox and generate a static blog from them. Scriptogr.am has more features, but Calepin is simple and elegant. Calepin&rsquo;s backend is also open source, in case I have to move. I like that I can&rsquo;t change the theme, one less thing to worry about. Good, now we&rsquo;re in Calepin, how did I move my stuff from blogger?</p>
+<p>Great, I can write posts, how do I publish them and where do they get published? I had 2 choices: <a href="http://scriptogr.am">http://scriptogr.am</a> and <a href="http://calepin.co">http://calepin.co</a>. They both essentially do the same thing, take markdown formatted text files in Dropbox and generate a static blog from them. Scriptogr.am has more features, but Calepin is simple and elegant. Calepin’s backend is also open source, in case I have to move. I like that I can’t change the theme, one less thing to worry about. Good, now we’re in Calepin, how did I move my stuff from blogger?</p>
 
 <p><em>Convert</em></p>
 
-<p>I had to convert the blog (again). I took the Atom feed provided by blogger and threw it in this <a href="https://gist.github.com/larsks/4022537">script</a>. I changed the date format a bit to include the time. It wasn&rsquo;t perfect, I had to modify a couple posts for formatting. This generated about 500 files. Copy to Dropbox .. done.</p>
+<p>I had to convert the blog (again). I took the Atom feed provided by blogger and threw it in this <a href="https://gist.github.com/larsks/4022537">script</a>. I changed the date format a bit to include the time. It wasn’t perfect, I had to modify a couple posts for formatting. This generated about 500 files. Copy to Dropbox .. done.</p>
 
-<p><em>Writing tools</em></p>
+<p><em>Writing tools</em> </p>
 
-<p>Now I can use pretty much anything to write a post. As long as it ends up in Dropbox, it&rsquo;ll get posted. <a href="https://itunes.apple.com/gb/app/byword/id482063361?mt=8">Byword</a> has good markdown support, a bit clunky though. <a href="https://itunes.apple.com/gb/app/daedalus-touch-text-editor/id406964546?mt=8">Daedalus</a> is a great way of dealing with text files. It&rsquo;s not perfect yet, but it&rsquo;s the first app that I&rsquo;m actively submitting bugs for since I really like it. I can use vim to create posts if I feel like it. Dropbox obviously is where all the posts end up. Safe, backed up to the cloud.</p>
+<p>Now I can use pretty much anything to write a post. As long as it ends up in Dropbox, it’ll get posted. <a href="https://itunes.apple.com/gb/app/byword/id482063361?mt=8">Byword</a> has good markdown support, a bit clunky though. <a href="https://itunes.apple.com/gb/app/daedalus-touch-text-editor/id406964546?mt=8">Daedalus</a> is a great way of dealing with text files. It’s not perfect yet, but it’s the first app that I’m actively submitting bugs for since I really like it. I can use vim to create posts if I feel like it. Dropbox obviously is where all the posts end up. Safe, backed up to the cloud.</p>
 </div>
   
   
@@ -285,7 +283,8 @@
 
   <div class="entry-content"><p><img src="https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1" alt="W00t" /></p>
 
-<p>Got these made for 2 reasons. I didn&rsquo;t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had <a href="http://www.3dprint-uk.co.uk/">these</a> guys print the model from <a href="http://www.thingiverse.com/thing:147819">here</a>. I haven&rsquo;t tested them out much, looks promising.</p>
+<p>Got these made for 2 reasons. I didn’t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had <a href="http://www.3dprint-uk.co.uk/">these</a> guys print the model from <a href="http://www.thingiverse.com/thing:147819">here</a>. I haven’t tested them out much, looks promising.</p>
+
 </div>
   
   
@@ -324,6 +323,7 @@
   <div class="entry-content"><p><img src="https://lh6.googleusercontent.com/-G9VIRGzQ_NY/Us60dtq1fVI/AAAAAAAAJJY/lMN_aoN8fDo/s640/blogger-image--1287224511.jpg" alt="blogger-image--1287224511.jpg" /></p>
 
 <p>I own two of <a href="http://www.belkin.com/au/p/P-F4U037/">these</a> and Iove them. If you own a car with an AUX jack and no built in Bluetooth, this is a very easy way to add a USB to charge and wireless audio to listen to your podcasts (or Paul Simon). You can find them cheaper on eBay.</p>
+
 </div>
   
   
@@ -360,6 +360,7 @@
 
 
   <div class="entry-content"><p>I’ve started an <strong>experiment</strong>. I’m going to write blog posts using <a href="http://daringfireball.net/projects/markdown/syntax">markdown</a> and post entries using email. I wanted to use <a href="http://daedalusapp.com/">Daedalus Touch</a> however it doesn’t support exporting HTML to email, I’ve requested the feature. For now I’m using <a href="http://bywordapp.com/">Byword</a>.</p>
+
 </div>
   
   
@@ -395,11 +396,12 @@
   </header>
 
 
-  <div class="entry-content"><p>Bought a <a href="http://www.specopsbrand.com/t-h-e-wallet.html">new wallet</a>. It&rsquo;s huge, but so far I like it. Holds my passport, all my various ID (expats have a lot of ID) and then some. I liked the <a href="http://blog.green.io/2013/02/pad-quill-little-pocket-book-for-iphone.html">Pad and Quill</a> but it really only holds 4 cards, I had 7 in there, that made it bulge and ended up (I think) taking off the oliophobic coating of the iPhone 5.</p>
+  <div class="entry-content"><p>Bought a <a href="http://www.specopsbrand.com/t-h-e-wallet.html">new wallet</a>. It’s huge, but so far I like it. Holds my passport, all my various ID (expats have a lot of ID) and then some. I liked the <a href="http://blog.green.io/2013/02/pad-quill-little-pocket-book-for-iphone.html">Pad and Quill</a> but it really only holds 4 cards, I had 7 in there, that made it bulge and ended up (I think) taking off the oliophobic coating of the iPhone 5.</p>
 
-<p>Combining my wallet with my phone seemed like a good idea at the time, but after months of use, I decided it wasn&rsquo;t for me. I now have the comfort of knowing that I have everything I possibly need, including 3 frequent customer stamp cards from <a href="http://www.properpasty.co.uk/">Proper Pasty</a> that until now have always been at home at the most inconvenient time. (That time being when standing directly in front of the Proper Pasty on the High street.) My iPhone is in a <a href="https://www.casecrown.com/smartphones/iphone-5/iphone-5-chameleon-glider-case">casecrown</a> case that <a href="http://twitter.com/davidmarkrich">@davidmarkrich</a> donated so that my phone wasn&rsquo;t exposed. Great case, I like having my slim phone back.</p>
+<p>Combining my wallet with my phone seemed like a good idea at the time, but after months of use, I decided it wasn’t for me. I now have the comfort of knowing that I have everything I possibly need, including 3 frequent customer stamp cards from <a href="http://www.properpasty.co.uk/">Proper Pasty</a> that until now have always been at home at the most inconvenient time. (That time being when standing directly in front of the Proper Pasty on the High street.) My iPhone is in a <a href="https://www.casecrown.com/smartphones/iphone-5/iphone-5-chameleon-glider-case">casecrown</a> case that <a href="http://twitter.com/davidmarkrich">@davidmarkrich</a> donated so that my phone wasn’t exposed. Great case, I like having my slim phone back.</p>
 
 <p><img src="https://lh5.googleusercontent.com/-0PrxKcS8eoE/Uq70oRhNqrI/AAAAAAAAJFU/s2axXsoeVVY/s640/blogger-image-1211716582.jpg" alt="blogger-image-1211716582.jpg" /></p>
+
 </div>
   
   
@@ -436,6 +438,7 @@
 
 
   <div class="entry-content"><p><a href="http://t.co/EvMomQyjQk"> http://t.co/EvMomQyjQk </a></p>
+
 </div>
   
   
@@ -474,6 +477,7 @@
   <div class="entry-content"><p><img src="https://lh6.googleusercontent.com/-6ArcswiK6_E/UZlZiLuUXQI/AAAAAAAAIzI/0CV9dYHzVTc/s640/blogger-image-971892070.jpg" alt="blogger-image-971892070.jpg" /></p>
 
 <p>See <a href="/pizzafire">here</a></p>
+
 </div>
   
   
@@ -496,11 +500,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a>
+        <a href="/blog/2014/02/06/0xEE/">Stupid JBOD</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/02/06/0xEE/">Stupid JBOD</a>
+        <a href="/blog/2014/02/06/movedagain/">Well That Was Fast</a>
       </li>
     
       <li class="post">
