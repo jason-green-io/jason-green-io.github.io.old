@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-07T11:33:25+00:00</updated>
+  <updated>2014-02-07T15:21:35+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -219,31 +219,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Remote Adventures]]></title>
-    <link href="http://jason.green.io/blog/2013/01/23/remote-adventures/"/>
-    <updated>2013-01-23T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/01/23/remote-adventures</id>
-    <content type="html"><![CDATA[<hr />
-<p>layout: post
-title: “remote adventures”
-date: 2013-01-23
-Status: draft</p>
-
-<p><em>bash</em></p>
-
-<p>I’ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an incase origami workspace, which I love. Here’s something I learned. In bash when you type a long command (which takes time if you DON’T have a keyboard) and notice you made a typo in the first character, you can type C-a to go to the beginning of the line and C-e to go to the end. Now, if you run screen, you’d have to do a C-a C-a. Take a look at the readline section of the bash man page.</p>
-
-<p><em>tmux</em></p>
-
-<p>I discovered tmux. I’m not sure how I feel about it yet. Seems alot of the common command are the same as screen, so that’s good.</p>
-
-<p><em>RealVNC</em></p>
-
-<p>OS X screen sharing is good if you have a fast connection. But if you’re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. RealVNc has a server for OS X, I’m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Achievement Unlocked, Poop in the Tub]]></title>
     <link href="http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub/"/>
     <updated>2013-01-01T18:29:00+00:00</updated>
@@ -284,6 +259,18 @@ Status: draft</p>
     <content type="html"><![CDATA[<p>Wow, HUGE improvement. Thank you Apple. The experience is so much better. The Remote app feels like iTunes, the way it’s supposed to be. If you haven’t updated .. Go, now!</p>
 
 <p>Now if only they applied this design to the Music app.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Future Leaders Having Fun]]></title>
+    <link href="http://jason.green.io/blog/2012/10/19/my-future-leaders/"/>
+    <updated>2012-10-19T20:41:00+01:00</updated>
+    <id>http://jason.green.io/blog/2012/10/19/my-future-leaders</id>
+    <content type="html"><![CDATA[<p><a href="http://gangnamstylenews.com/video/1459/gangnam-style-royal-military-college-of-canada/">GANGNAM STYLE: ROYAL MILITARY COLLEGE OF CANADA</a></p>
+
+<h1 id="twitter-facebook">twitter #facebook</h1>
+
 ]]></content>
   </entry>
   
