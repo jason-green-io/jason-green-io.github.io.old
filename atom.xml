@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-06T21:32:42+00:00</updated>
+  <updated>2014-02-07T06:39:12+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -52,17 +52,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Moved Blog]]></title>
+    <title type="html"><![CDATA[Going Down the Markdown Hole]]></title>
     <link href="http://jason.green.io/blog/2014/02/04/moved-blog/"/>
     <updated>2014-02-04T00:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/04/moved-blog</id>
-    <content type="html"><![CDATA[<p>﻿&mdash;&ndash;
-layout: post
-title: &ldquo;going down the markdown hole&rdquo;</p>
-
-<h2>date: 2014-02-04</h2>
-
-<p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here&rsquo;s how I did it.</p>
+    <content type="html"><![CDATA[<p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here&rsquo;s how I did it.</p>
 
 <p><em>Platform</em></p>
 
@@ -90,22 +84,6 @@ title: &ldquo;going down the markdown hole&rdquo;</p>
     <content type="html"><![CDATA[<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screens or tmuxes status bar to the same background as your terminals default, this aberations go away.</p>
 
 <p>Also, not sure, but I think the latest update to Prompt fixed issues I was having in vim</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[0xee]]></title>
-    <link href="http://jason.green.io/blog/2014/01/29/0xEE/"/>
-    <updated>2014-01-29T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2014/01/29/0xEE</id>
-    <content type="html"><![CDATA[<p>﻿&mdash;&ndash;
-layout: post
-title: &ldquo;stupid JBOD&rdquo;
-date: 2014-01-29</p>
-
-<h2>published: false</h2>
-
-<p>I own a 4 * SATA to USB disk enclosure, <a href="http://www.sansdigital.com/towerraid/tr4u.html">this one</a>. It was great until I plugged it into 220V without switching the power supply. Now it&rsquo;s a door stop. One of the disks was hosting our iTunes library, so obviously I required access to that one disk. This particular model supports RAID configs. To do this, it adds an abstraction layer between the USB controller and the SATA, to turn multiple disks to one (it is a JBOD after all). I ran into problems when I used my portable SATA to USB cable to mount it on my Mac Mini server. Didn&rsquo;t mount. Seems this abstraction layer formats the disks (even if they&rsquo;re not setup as RAID) using a hybrid partition table. fdisk shows it as EE (protected partition or something). This <a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">post</a> saved the day. I was sweating a little bit until I found the answer.</p>
 ]]></content>
   </entry>
   
@@ -291,6 +269,17 @@ Status: draft</p>
     <content type="html"><![CDATA[<p>Wow, HUGE improvement. Thank you Apple. The experience is so much better. The Remote app feels like iTunes, the way it&rsquo;s supposed to be. If you haven&rsquo;t updated .. Go, now!</p>
 
 <p>Now if only they applied this design to the Music app.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Future Leaders Having Fun]]></title>
+    <link href="http://jason.green.io/blog/2012/10/19/my-future-leaders/"/>
+    <updated>2012-10-19T20:41:00+01:00</updated>
+    <id>http://jason.green.io/blog/2012/10/19/my-future-leaders</id>
+    <content type="html"><![CDATA[<p><a href="http://gangnamstylenews.com/video/1459/gangnam-style-royal-military-college-of-canada/">GANGNAM STYLE: ROYAL MILITARY COLLEGE OF CANADA</a></p>
+
+<h1>twitter #facebook</h1>
 ]]></content>
   </entry>
   
