@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-12T08:24:03+00:00</updated>
+  <updated>2014-02-12T08:29:32+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[remote adventures]]></title>
+    <link href="http://jason.green.io/blog/2014/02/10/remote-adventures/"/>
+    <updated>2014-02-10T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/02/10/remote-adventures</id>
+    <content type="html"><![CDATA[<p><em>bash</em></p>
+
+<p>I’ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an <a href="http://goincase.com/shop/incase-origami-workstation-for-ipad-2">incase Origami Workstation</a>, which I love. Here’s something I learned: In bash when you type a long command (which takes time if you DON’T have a keyboard) and notice you made a typo in the first word, you can type <code>C-a</code> to go to the beginning of the line and <code>C-e</code> to go to the end. If you run <a href="http://www.gnu.org/software/screen/">screen</a>, you’d have to do a <code>C-a C-a</code> (tmux you’re fine since your escape is <code>C-b</code> by default). Take a look at the readline section of the bash man page.</p>
+
+<p><em>tmux</em></p>
+
+<p>I discovered <a href="http://tmux.sourceforge.net/">tmux</a>. I’m not sure how I feel about it yet. Seems a lot of the common commands are the same as screen, so that’s good.</p>
+
+<p><em>RealVNC</em></p>
+
+<p>OS X screen sharing is good if you have a fast connection. But if you’re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. <a href="http://www.realvnc.com/">RealVNC</a> has a server for OS X, I’m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[stupid JBOD]]></title>
@@ -204,25 +223,6 @@
 
 <p><em>Updated with product links … Mike.</em></p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[remote adventures]]></title>
-    <link href="http://jason.green.io/blog/2013/02/10/remote-adventures/"/>
-    <updated>2013-02-10T00:00:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/02/10/remote-adventures</id>
-    <content type="html"><![CDATA[<p><em>bash</em></p>
-
-<p>I’ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an <a href="http://goincase.com/shop/incase-origami-workstation-for-ipad-2">incase Origami Workstation</a>, which I love. Here’s something I learned: In bash when you type a long command (which takes time if you DON’T have a keyboard) and notice you made a typo in the first word, you can type <code>C-a</code> to go to the beginning of the line and <code>C-e</code> to go to the end. If you run <a href="http://www.gnu.org/software/screen/">screen</a>, you’d have to do a <code>C-a C-a</code> (tmux you’re fine since your escape is <code>C-b</code> by default). Take a look at the readline section of the bash man page.</p>
-
-<p><em>tmux</em></p>
-
-<p>I discovered <a href="http://tmux.sourceforge.net/">tmux</a>. I’m not sure how I feel about it yet. Seems a lot of the common commands are the same as screen, so that’s good.</p>
-
-<p><em>RealVNC</em></p>
-
-<p>OS X screen sharing is good if you have a fast connection. But if you’re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. <a href="http://www.realvnc.com/">RealVNC</a> has a server for OS X, I’m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.</p>
 ]]></content>
   </entry>
   
