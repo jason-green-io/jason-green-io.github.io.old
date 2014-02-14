@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-12T08:29:32+00:00</updated>
+  <updated>2014-02-14T23:54:45+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -18,15 +18,15 @@
     <link href="http://jason.green.io/blog/2014/02/10/remote-adventures/"/>
     <updated>2014-02-10T00:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/10/remote-adventures</id>
-    <content type="html"><![CDATA[<p><em>bash</em></p>
+    <content type="html"><![CDATA[<h1 id="bash">bash</h1>
 
 <p>I’ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an <a href="http://goincase.com/shop/incase-origami-workstation-for-ipad-2">incase Origami Workstation</a>, which I love. Here’s something I learned: In bash when you type a long command (which takes time if you DON’T have a keyboard) and notice you made a typo in the first word, you can type <code>C-a</code> to go to the beginning of the line and <code>C-e</code> to go to the end. If you run <a href="http://www.gnu.org/software/screen/">screen</a>, you’d have to do a <code>C-a C-a</code> (tmux you’re fine since your escape is <code>C-b</code> by default). Take a look at the readline section of the bash man page.</p>
 
-<p><em>tmux</em></p>
+<h1 id="tmux">tmux</h1>
 
 <p>I discovered <a href="http://tmux.sourceforge.net/">tmux</a>. I’m not sure how I feel about it yet. Seems a lot of the common commands are the same as screen, so that’s good.</p>
 
-<p><em>RealVNC</em></p>
+<h1 id="realvnc">RealVNC</h1>
 
 <p>OS X screen sharing is good if you have a fast connection. But if you’re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. <a href="http://www.realvnc.com/">RealVNC</a> has a server for OS X, I’m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.</p>
 ]]></content>
@@ -227,6 +227,19 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Dropbox user content]]></title>
+    <link href="http://jason.green.io/blog/2013/02/15/Dropbox-user-content/"/>
+    <updated>2013-02-15T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2013/02/15/Dropbox-user-content</id>
+    <content type="html"><![CDATA[<p><a href="https://www.dropbox.com/help/201">This</a> is how you make dropbox share links auto download for inclusion in HTML.</p>
+
+<p>Example:</p>
+
+<p><img src="https://dl.dropbox.com/s/xebfvwiy1h6xgyp/1361ECDE1DE0464083DE9743DE3CAAE1.jpg" alt="not impressed" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[xkcd: Perl Problems]]></title>
     <link href="http://jason.green.io/blog/2013/02/08/xkcd-perl-problems/"/>
     <updated>2013-02-08T06:31:00+00:00</updated>
@@ -267,17 +280,6 @@
 
 <p><img src="https://lh6.googleusercontent.com/-gFa_RZrirTk/UMKnBxQkDfI/AAAAAAAAErQ/wjmfJGnmayQ/s640/blogger-image-857273359.jpg" alt="blogger-image-857273359.jpg" /></p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[new iOS Remote app and iTunes 11]]></title>
-    <link href="http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11/"/>
-    <updated>2012-11-29T18:46:00+00:00</updated>
-    <id>http://jason.green.io/blog/2012/11/29/new-ios-remote-app-and-itunes-11</id>
-    <content type="html"><![CDATA[<p>Wow, HUGE improvement. Thank you Apple. The experience is so much better. The Remote app feels like iTunes, the way it’s supposed to be. If you haven’t updated .. Go, now!</p>
-
-<p>Now if only they applied this design to the Music app.</p>
 ]]></content>
   </entry>
   
