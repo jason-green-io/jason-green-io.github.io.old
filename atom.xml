@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-15T19:58:17+00:00</updated>
+  <updated>2014-02-15T21:31:29+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -18,7 +18,7 @@
     <link href="http://jason.green.io/blog/2014/02/15/trick-markdown-preview/"/>
     <updated>2014-02-15T13:29:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/15/trick-markdown-preview</id>
-    <content type="html"><![CDATA[<p>You can trick your markdown preview into correctly rendering the front matter from octopress (depending on the flavor or markdown your app uses). This works with 1Writer, not so much in Byword.</p>
+    <content type="html"><![CDATA[<p>You can trick your markdown preview into correctly rendering the front matter from octopress (depending on the flavor of markdown your app uses). This works with 1Writer, not so much in Byword.</p>
 
 <p>Just leave a space before the last <code>---</code>. Like so.</p>
 
@@ -152,7 +152,7 @@ comments: true
     <link href="http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux/"/>
     <updated>2014-01-29T00:00:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/01/29/Prompt-vim-tmux</id>
-    <content type="html"><![CDATA[<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screens or tmuxes status bar to the same background as your terminals default, this aberations go away.</p>
+    <content type="html"><![CDATA[<p>Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screen’s or tmux’s status bar to the same background as your terminal’s default, the aberations go away.</p>
 
 <p>Also, not sure, but I think the latest update to Prompt fixed issues I was having in vim</p>
 ]]></content>
