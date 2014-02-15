@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-15T08:28:24+00:00</updated>
+  <updated>2014-02-15T19:45:30+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Trick markdown preview]]></title>
+    <link href="http://jason.green.io/blog/2014/02/15/trick-markdown-preview/"/>
+    <updated>2014-02-15T13:29:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/02/15/trick-markdown-preview</id>
+    <content type="html"><![CDATA[You can trick your markdown preview into correctly rendering the front matter from octopress (depending on the flavor or markdown your app uses). This works with 1Writer, not so much in Byword.
+
+Just leave a space before the last `---`. Like so.
+
+	---
+	layout: post
+	title: "Title"
+	published: true
+	date: 2014-01-01
+	comments: true
+	
+	---
+
+And voila!
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[1Writer]]></title>
+    <link href="http://jason.green.io/blog/2014/02/15/1Writer/"/>
+    <updated>2014-02-15T12:48:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/02/15/1Writer</id>
+    <content type="html"><![CDATA[<p>I’ve been a fan of Daedalus for about a month, even with its shortcomings (its got Dropbox bugs, visual glitches and writes a <a href="http://en.wikipedia.org/wiki/Byte_order_mark">BOM</a> that octopress doesn’t like). Last night I was looking for something else, other than Byword; which is nice, but still just doesn’t do it for me. I found <a href="https://itunes.apple.com/ca/app/1writer-note-taking-writing/id680469088?mt=8">1Writer</a>. I really like it. Simple, it has all the features of Byword and more. The more I use it the more I like it. Related to <a href="http://jason.green.io/blog/2014/02/15/Dropbox-user-content">this</a> post, 1Writer will automatically upload and link dropbox files for you, whaaaat! It’s universal, it’s <strong>very</strong> nice on the iPad. Crazy amount of fonts, if you’re into fonts. If you’re looking for a markdown preview/authoring, dropbox saving, nice looking, universal, inexpensive, app .. Download 1Writer.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dropbox user content]]></title>
@@ -76,7 +107,7 @@
 <span class="line-number">9</span>
 <span class="line-number">10</span>
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c">#!/bin/bash</span>
-</span><span class="line"><span class="c">#Mac OS X .. ymmv</span>
+</span><span class="line"><span class="c"># Mac OS X .. ymmv</span>
 </span><span class="line"><span class="k">for </span>i in <span class="nv">$1</span>/*.md; <span class="k">do</span>
 </span><span class="line"><span class="k">    </span>sed -i <span class="s1">&#39;&#39;</span> -e <span class="s1">&#39;s/Tags:/tags:/&#39;</span> <span class="se">\</span>
 </span><span class="line">    -e <span class="s1">&#39;s/Title:/title:/&#39;</span> <span class="se">\</span>
@@ -256,30 +287,6 @@
     <updated>2013-01-01T18:29:00+00:00</updated>
     <id>http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub</id>
     <content type="html"><![CDATA[<p>Yup, it finally happened, my son pooped in the tub. Oh, you thought <em>I</em> did?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fresh off the truck!]]></title>
-    <link href="http://jason.green.io/blog/2012/12/29/fresh-off-truck/"/>
-    <updated>2012-12-29T17:27:00+00:00</updated>
-    <id>http://jason.green.io/blog/2012/12/29/fresh-off-truck</id>
-    <content type="html"><![CDATA[<p><img src="http://2.bp.blogspot.com/-g47axcWEeSQ/UN9ubdJXiDI/AAAAAAAAE1E/hZmXwvU4-Tk/s320/photo-775390.JPG" alt="mmmmm" /></p>
-
-<p><a href="http://www.beaus.ca/beer/pro-am/burnt-rock">Details here</a></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My excellent view during the Leonard Cohen show]]></title>
-    <link href="http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7/"/>
-    <updated>2012-12-07T21:34:00+00:00</updated>
-    <id>http://jason.green.io/blog/2012/12/07/my-excellent-view-during-leonard-cohen_7</id>
-    <content type="html"><![CDATA[<p>I hope I can put on a 3 hour show when I’m 78.</p>
-
-<p><img src="https://lh6.googleusercontent.com/-gFa_RZrirTk/UMKnBxQkDfI/AAAAAAAAErQ/wjmfJGnmayQ/s640/blogger-image-857273359.jpg" alt="blogger-image-857273359.jpg" /></p>
-
 ]]></content>
   </entry>
   
