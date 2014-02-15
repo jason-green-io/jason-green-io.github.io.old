@@ -144,15 +144,15 @@
   </header>
 
 
-  <div class="entry-content"><h1 id="bash">bash</h1>
+  <div class="entry-content"><h2 id="bash">bash</h2>
 
 <p>I’ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an <a href="http://goincase.com/shop/incase-origami-workstation-for-ipad-2">incase Origami Workstation</a>, which I love. Here’s something I learned: In bash when you type a long command (which takes time if you DON’T have a keyboard) and notice you made a typo in the first word, you can type <code>C-a</code> to go to the beginning of the line and <code>C-e</code> to go to the end. If you run <a href="http://www.gnu.org/software/screen/">screen</a>, you’d have to do a <code>C-a C-a</code> (tmux you’re fine since your escape is <code>C-b</code> by default). Take a look at the readline section of the bash man page.</p>
 
-<h1 id="tmux">tmux</h1>
+<h2 id="tmux">tmux</h2>
 
 <p>I discovered <a href="http://tmux.sourceforge.net/">tmux</a>. I’m not sure how I feel about it yet. Seems a lot of the common commands are the same as screen, so that’s good.</p>
 
-<h1 id="realvnc">RealVNC</h1>
+<h2 id="realvnc">RealVNC</h2>
 
 <p>OS X screen sharing is good if you have a fast connection. But if you’re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. <a href="http://www.realvnc.com/">RealVNC</a> has a server for OS X, I’m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.</p>
 </div>
@@ -291,7 +291,7 @@
 
   <div class="entry-content"><p>Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here’s how I did it.</p>
 
-<p><em>Platform</em></p>
+<h2 id="platform">Platform</h2>
 
 <p>Blogger is great. .. Blogger is great if you use a web browser on a non-mobile device. Sure they have an iOS app, but it sucks. The web interface to create posts and manage the blog is useless on iOS. I tried writing posts in plain text before copy/pasting into blogger, but then I have to markup the links, and that’s annoying. What I’m trying to say is blogger sucks.</p>
 
@@ -299,11 +299,11 @@
 
 <p>Great, I can write posts, how do I publish them and where do they get published? I had 2 choices: <a href="http://scriptogr.am">http://scriptogr.am</a> and <a href="http://calepin.co">http://calepin.co</a>. They both essentially do the same thing, take markdown formatted text files in Dropbox and generate a static blog from them. Scriptogr.am has more features, but Calepin is simple and elegant. Calepin’s backend is also open source, in case I have to move. I like that I can’t change the theme, one less thing to worry about. Good, now we’re in Calepin, how did I move my stuff from blogger?</p>
 
-<p><em>Convert</em></p>
+<h2 id="convert">Convert</h2>
 
 <p>I had to convert the blog (again). I took the Atom feed provided by blogger and threw it in this <a href="https://gist.github.com/larsks/4022537">script</a>. I changed the date format a bit to include the time. It wasn’t perfect, I had to modify a couple posts for formatting. This generated about 500 files. Copy to Dropbox .. done.</p>
 
-<p><em>Writing tools</em> </p>
+<h2 id="writing-tools">Writing tools</h2>
 
 <p>Now I can use pretty much anything to write a post. As long as it ends up in Dropbox, it’ll get posted. <a href="https://itunes.apple.com/gb/app/byword/id482063361?mt=8">Byword</a> has good markdown support, a bit clunky though. <a href="https://itunes.apple.com/gb/app/daedalus-touch-text-editor/id406964546?mt=8">Daedalus</a> is a great way of dealing with text files. It’s not perfect yet, but it’s the first app that I’m actively submitting bugs for since I really like it. I can use vim to create posts if I feel like it. Dropbox obviously is where all the posts end up. Safe, backed up to the cloud.</p>
 </div>
