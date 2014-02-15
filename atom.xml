@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-15T19:45:30+00:00</updated>
+  <updated>2014-02-15T19:58:17+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -18,20 +18,21 @@
     <link href="http://jason.green.io/blog/2014/02/15/trick-markdown-preview/"/>
     <updated>2014-02-15T13:29:00+00:00</updated>
     <id>http://jason.green.io/blog/2014/02/15/trick-markdown-preview</id>
-    <content type="html"><![CDATA[You can trick your markdown preview into correctly rendering the front matter from octopress (depending on the flavor or markdown your app uses). This works with 1Writer, not so much in Byword.
+    <content type="html"><![CDATA[<p>You can trick your markdown preview into correctly rendering the front matter from octopress (depending on the flavor or markdown your app uses). This works with 1Writer, not so much in Byword.</p>
 
-Just leave a space before the last `---`. Like so.
+<p>Just leave a space before the last <code>---</code>. Like so.</p>
 
-	---
-	layout: post
-	title: "Title"
-	published: true
-	date: 2014-01-01
-	comments: true
-	
-	---
+<pre><code>---
+layout: post
+title: "Title"
+published: true
+date: 2014-01-01
+comments: true
 
-And voila!
+---
+</code></pre>
+
+<p>And voila!</p>
 ]]></content>
   </entry>
   
