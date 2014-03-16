@@ -4,7 +4,7 @@
   <title><![CDATA[jason.green.io]]></title>
   <link href="http://jason.green.io/atom.xml" rel="self"/>
   <link href="http://jason.green.io/"/>
-  <updated>2014-02-15T21:31:29+00:00</updated>
+  <updated>2014-03-16T21:34:31+00:00</updated>
   <id>http://jason.green.io/</id>
   <author>
     <name><![CDATA[jason@green.io]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iOS Stocks and currency exchange]]></title>
+    <link href="http://jason.green.io/blog/2014/03/15/ios-stocks-tip+%28Jason+Green%27s+conflicted+copy%29/"/>
+    <updated>2014-03-15T00:00:00+00:00</updated>
+    <id>http://jason.green.io/blog/2014/03/15/ios-stocks-tip (Jason Green&#8217;s conflicted copy)</id>
+    <content type="html"><![CDATA[<p>Did you know you can use the built-in Stocks app to view the current and historic exchange rate for currencies? Yup, try it, enter <code>GBPCAD=</code> as a quote. Replace what you’re exchanging before the <code>=</code>. </p>
+
+<p><img src="https://dl.dropbox.com/s/u668pznyyuayi8e/3DBB356DC20441E8B658C877F4125F70.jpg" alt="why does it keep going up!!" /></p>
+
+<p>Quotes sync with iCloud and they show up in the today swipe down view if configured in Settings. Convenient.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Trick markdown preview]]></title>
@@ -279,15 +292,6 @@ comments: true
     <content type="html"><![CDATA[<p><img src="http://imgs.xkcd.com/comics/perl_problems.png" alt="regex rulez" /></p>
 
 <p>The peeps at work will most likely print this and put it on a wall.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Achievement Unlocked, Poop in the Tub]]></title>
-    <link href="http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub/"/>
-    <updated>2013-01-01T18:29:00+00:00</updated>
-    <id>http://jason.green.io/blog/2013/01/01/achievement-unlocked-poop-in-tub</id>
-    <content type="html"><![CDATA[<p>Yup, it finally happened, my son pooped in the tub. Oh, you thought <em>I</em> did?</p>
 ]]></content>
   </entry>
   
