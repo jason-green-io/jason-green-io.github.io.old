@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About"
+permalink: /about/
 published: false
 date: 2014-02-15
 comments: false
