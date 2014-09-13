@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jason.green.io</title>
+    <description>Jason Green io</description>
+    <link>http://jason.green.io/</link>
+    <atom:link href="http://jason.green.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 13 Sep 2014 12:47:21 +0100</pubDate>
+    <lastBuildDate>Sat, 13 Sep 2014 12:47:21 +0100</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>iOS Stocks and currency exchange</title>
+        <description>&lt;p&gt;Did you know you can use the built-in Stocks app to view the current and historic exchange rate for currencies? Yup, try it, enter &lt;code&gt;GBPCAD=X&lt;/code&gt; as a quote. Replace what you’re exchanging before the &lt;code&gt;=X&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropbox.com/s/u668pznyyuayi8e/3DBB356DC20441E8B658C877F4125F70.jpg&quot; alt=&quot;why does it keep going up!!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quotes sync with iCloud and they show up in the today swipe down view if configured in Settings. Convenient.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/03/15/ios-stocks-tip/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/03/15/ios-stocks-tip/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Trick markdown preview</title>
+        <description>&lt;p&gt;You can trick your markdown preview into correctly rendering the front matter from octopress (depending on the flavor of markdown your app uses). This works with 1Writer, not so much in Byword.&lt;/p&gt;
+
+&lt;p&gt;Just leave a space before the last &lt;code&gt;---&lt;/code&gt;. Like so.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: post
+title: &quot;Title&quot;
+published: true
+date: 2014-01-01
+comments: true
+
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And voila!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2014 13:29:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/15/trick-markdown-preview/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/15/trick-markdown-preview/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1Writer</title>
+        <description>&lt;p&gt;I’ve been a fan of Daedalus for about a month, even with its shortcomings (its got Dropbox bugs, visual glitches and writes a &lt;a href=&quot;http://en.wikipedia.org/wiki/Byte_order_mark&quot;&gt;BOM&lt;/a&gt; that octopress doesn’t like). Last night I was looking for something else, other than Byword; which is nice, but still just doesn’t do it for me. I found &lt;a href=&quot;https://itunes.apple.com/ca/app/1writer-note-taking-writing/id680469088?mt=8&quot;&gt;1Writer&lt;/a&gt;. I really like it. Simple, it has all the features of Byword and more. The more I use it the more I like it. Related to &lt;a href=&quot;/blog/2014/02/15/Dropbox-user-content&quot;&gt;this&lt;/a&gt; post, 1Writer will automatically upload and link dropbox files for you, whaaaat! It’s universal, it’s &lt;strong&gt;very&lt;/strong&gt; nice on the iPad. Crazy amount of fonts, if you’re into fonts. If you’re looking for a markdown preview/authoring, dropbox saving, nice looking, universal, inexpensive, app .. Download 1Writer.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2014 12:48:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/15/1Writer/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/15/1Writer/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Dropbox user content</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.dropbox.com/help/201&quot;&gt;This&lt;/a&gt; is how you make dropbox share links auto download for inclusion in HTML.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropbox.com/s/xebfvwiy1h6xgyp/1361ECDE1DE0464083DE9743DE3CAAE1.jpg&quot; alt=&quot;not impressed&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2014 00:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/15/Dropbox-user-content/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/15/Dropbox-user-content/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>remote adventures</title>
+        <description>&lt;h2 id=&quot;bash&quot;&gt;bash&lt;/h2&gt;
+
+&lt;p&gt;I’ve been using my iPad to ssh into my home server a lot lately. I have it tethered to an Apple Bluetooth wireless keyboard. I also picked up an &lt;a href=&quot;http://goincase.com/shop/incase-origami-workstation-for-ipad-2&quot;&gt;incase Origami Workstation&lt;/a&gt;, which I love. Here’s something I learned: In bash when you type a long command (which takes time if you DON’T have a keyboard) and notice you made a typo in the first word, you can type &lt;code&gt;C-a&lt;/code&gt; to go to the beginning of the line and &lt;code&gt;C-e&lt;/code&gt; to go to the end. If you run &lt;a href=&quot;http://www.gnu.org/software/screen/&quot;&gt;screen&lt;/a&gt;, you’d have to do a &lt;code&gt;C-a C-a&lt;/code&gt; (tmux you’re fine since your escape is &lt;code&gt;C-b&lt;/code&gt; by default). Take a look at the readline section of the bash man page.&lt;/p&gt;
+
+&lt;h2 id=&quot;tmux&quot;&gt;tmux&lt;/h2&gt;
+
+&lt;p&gt;I discovered &lt;a href=&quot;http://tmux.sourceforge.net/&quot;&gt;tmux&lt;/a&gt;. I’m not sure how I feel about it yet. Seems a lot of the common commands are the same as screen, so that’s good.&lt;/p&gt;
+
+&lt;h2 id=&quot;realvnc&quot;&gt;RealVNC&lt;/h2&gt;
+
+&lt;p&gt;OS X screen sharing is good if you have a fast connection. But if you’re tethered to a 3G connection and your home broadband only has 400kb/s upstream, it is VERY slow. &lt;a href=&quot;http://www.realvnc.com/&quot;&gt;RealVNC&lt;/a&gt; has a server for OS X, I’m surprised it took me this long to notice. The free license allows 5 machines. I love the RealVNC app on iOS, now I just VPN to home and use the iOS app. The connection auto-figures-out the speed and adjusts the quality accordingly.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Feb 2014 00:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/10/remote-adventures/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/10/remote-adventures/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>stupid JBOD</title>
+        <description>&lt;p&gt;I own a 4 * SATA to USB disk enclosure, &lt;a href=&quot;http://www.sansdigital.com/towerraid/tr4u.html&quot;&gt;this one&lt;/a&gt;. It was great until I plugged it into 220V without switching the power supply, oops. Now it’s a door stop. One of the disks was hosting our iTunes library, so obviously I required access to that one disk. This particular model supports RAID configs. To do this, it adds an abstraction layer between the USB controller and the SATA, to turn multiple disks to one (it is a JBOD after all). I ran into problems when I used my portable SATA to USB cable to mount it on my Mac Mini server. Didn’t mount. Seems this abstraction layer formats the disks (even if they’re not setup as RAID) using a hybrid partition table. fdisk shows it as EE (protected partition or something). This &lt;a href=&quot;http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/&quot;&gt;post&lt;/a&gt; saved the day. I was sweating a little bit until I found the answer.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Feb 2014 21:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/06/0xEE/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/06/0xEE/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>well that was fast</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://calepin.co/&quot;&gt;calepin&lt;/a&gt; is nice, but it seems it’s not really supported anymore.&lt;/p&gt;
+
+&lt;p&gt;So I ventured to run &lt;a href=&quot;http://pelican.readthedocs.org/&quot;&gt;pelican&lt;/a&gt; myself on &lt;a href=&quot;http://sdf.org/&quot;&gt;sdf&lt;/a&gt;. Alas the VHOST and DNS memberships don’t offer much in the flexibility department. Reading on the webs looks like most people (markdown bloggers) gravitate towards &lt;a href=&quot;jekyllrb.com&quot;&gt;jekyll&lt;/a&gt; and even &lt;a href=&quot;octopress.org&quot;&gt;octopress&lt;/a&gt;. So here I am. I had to convert my posts from &lt;a href=&quot;http://scriptogr.am&quot;&gt;scriptog.am&lt;/a&gt; / &lt;a href=&quot;http://calepin.co/&quot;&gt;calepin&lt;/a&gt; / &lt;a href=&quot;http://pelican.readthedocs.org/&quot;&gt;pelican&lt;/a&gt; format to something with a YAML front matter.&lt;/p&gt;
+
+&lt;p&gt;This worked:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Mac OS X .. ymmv&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; i in &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;/*.md&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    sed -i &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt; -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;s/Tags:/tags:/&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;s/Title:/title:/&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;s/Date:/date:/&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;/title:/i\&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;---&lt;span class=&quot;s1&quot;&gt;&amp;#39; \&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    -e &amp;#39;&lt;/span&gt;/title:/i&lt;span class=&quot;se&quot;&gt;\&amp;#39;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;$&amp;#39;\n&amp;#39;&amp;#39;layout: post&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;/tags:/a\&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;---&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$i&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 06 Feb 2014 12:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/06/movedagain/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/06/movedagain/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>going down the markdown hole</title>
+        <description>&lt;p&gt;Remember when I said I was going to start using markdown, well that idea ended up changing everything about how I blog. I was looking to simplify, boy did I ever. I can write and publish an article with vim now. Here’s how I did it.&lt;/p&gt;
+
+&lt;h2 id=&quot;platform&quot;&gt;Platform&lt;/h2&gt;
+
+&lt;p&gt;Blogger is great. .. Blogger is great if you use a web browser on a non-mobile device. Sure they have an iOS app, but it sucks. The web interface to create posts and manage the blog is useless on iOS. I tried writing posts in plain text before copy/pasting into blogger, but then I have to markup the links, and that’s annoying. What I’m trying to say is blogger sucks.&lt;/p&gt;
+
+&lt;p&gt;I want to be able to use vim to write a blog post. I want to be able to start writing somewhere and finish somewhere else. I want to be able to make the posts rich without using stupid wysiwyg toolbars. Enter Dropbox and markdown. Markdown allows me to markup everything easily, in plain text. Doesn’t matter what editor you’re using, it will always generate the same HTML. I save the posts to a folder in dropbox so they’re available everywhere.&lt;/p&gt;
+
+&lt;p&gt;Great, I can write posts, how do I publish them and where do they get published? I had 2 choices: &lt;a href=&quot;http://scriptogr.am&quot;&gt;http://scriptogr.am&lt;/a&gt; and &lt;a href=&quot;http://calepin.co&quot;&gt;http://calepin.co&lt;/a&gt;. They both essentially do the same thing, take markdown formatted text files in Dropbox and generate a static blog from them. Scriptogr.am has more features, but Calepin is simple and elegant. Calepin’s backend is also open source, in case I have to move. I like that I can’t change the theme, one less thing to worry about. Good, now we’re in Calepin, how did I move my stuff from blogger?&lt;/p&gt;
+
+&lt;h2 id=&quot;convert&quot;&gt;Convert&lt;/h2&gt;
+
+&lt;p&gt;I had to convert the blog (again). I took the Atom feed provided by blogger and threw it in this &lt;a href=&quot;https://gist.github.com/larsks/4022537&quot;&gt;script&lt;/a&gt;. I changed the date format a bit to include the time. It wasn’t perfect, I had to modify a couple posts for formatting. This generated about 500 files. Copy to Dropbox .. done.&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-tools&quot;&gt;Writing tools&lt;/h2&gt;
+
+&lt;p&gt;Now I can use pretty much anything to write a post. As long as it ends up in Dropbox, it’ll get posted. &lt;a href=&quot;https://itunes.apple.com/gb/app/byword/id482063361?mt=8&quot;&gt;Byword&lt;/a&gt; has good markdown support, a bit clunky though. &lt;a href=&quot;https://itunes.apple.com/gb/app/daedalus-touch-text-editor/id406964546?mt=8&quot;&gt;Daedalus&lt;/a&gt; is a great way of dealing with text files. It’s not perfect yet, but it’s the first app that I’m actively submitting bugs for since I really like it. I can use vim to create posts if I feel like it. Dropbox obviously is where all the posts end up. Safe, backed up to the cloud.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Feb 2014 00:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/02/04/moved-blog/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/02/04/moved-blog/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Prompt, vim and tmux issues and how to fix them</title>
+        <description>&lt;p&gt;Prompt does this funny thing with background colors. I had to read the terminfo man page .. why Panic, why did you mke me do that! Any who, if you set the background color of screen’s or tmux’s status bar to the same background as your terminal’s default, the aberations go away.&lt;/p&gt;
+
+&lt;p&gt;Also, not sure, but I think the latest update to Prompt fixed issues I was having in vim&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jan 2014 00:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/01/29/Prompt-vim-tmux/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/01/29/Prompt-vim-tmux/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>3D printed Apple wireless keyboard clips</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/nfesjln5qy6pata/Photo%201-12-2014%2C%2014%2037%2001.jpg?dl=1&quot; alt=&quot;W00t&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Got these made for 2 reasons. I didn’t want to pay much for a couple pieces of plastic, and I picked a geek as a Secret Santa  recipient at work. I had &lt;a href=&quot;http://www.3dprint-uk.co.uk/&quot;&gt;these&lt;/a&gt; guys print the model from &lt;a href=&quot;http://www.thingiverse.com/thing:147819&quot;&gt;here&lt;/a&gt;. I haven’t tested them out much, looks promising.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+        <link>http://jason.green.io/2014/01/12/3D-clips/</link>
+        <guid isPermaLink="true">http://jason.green.io/2014/01/12/3D-clips/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

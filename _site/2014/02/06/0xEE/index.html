@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>stupid JBOD</title>
+    <meta name="description" content="Jason Green io">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://jason.green.io/2014/02/06/0xEE/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">jason.green.io</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">stupid JBOD</h1>
+    <p class="post-meta">Feb 6, 2014</p>
+  </header>
+
+  <article class="post-content">
+    <p>I own a 4 * SATA to USB disk enclosure, <a href="http://www.sansdigital.com/towerraid/tr4u.html">this one</a>. It was great until I plugged it into 220V without switching the power supply, oops. Now it’s a door stop. One of the disks was hosting our iTunes library, so obviously I required access to that one disk. This particular model supports RAID configs. To do this, it adds an abstraction layer between the USB controller and the SATA, to turn multiple disks to one (it is a JBOD after all). I ran into problems when I used my portable SATA to USB cable to mount it on my Mac Mini server. Didn’t mount. Seems this abstraction layer formats the disks (even if they’re not setup as RAID) using a hybrid partition table. fdisk shows it as EE (protected partition or something). This <a href="http://perrohunter.com/repair-a-mac-os-x-hfs-partition-table/">post</a> saved the day. I was sweating a little bit until I found the answer.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">jason.green.io</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>jason.green.io</li>
+          <li><a href="mailto:jason@green.io">jason@green.io</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Jason Green io</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
