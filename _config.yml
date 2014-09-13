@@ -1,6 +1,7 @@
 # Site settings
 title: jason.green.io
 email: jason@green.io
+twitter_username: jason_green_io
 description: "Jason Green io"
 baseurl: ""
 url: "http://jason.green.io"
