@@ -1,10 +1,12 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 2014-08-08T20:53:07.573882-04:00
-comments: true
+title: "About"
+published: false
+date: 2014-02-15
+comments: false
+
 ---
+
 
 I can be reached via email jason@green.io, my twitter account is @jason_green_io.
 
