@@ -5,9 +5,9 @@
     <description>Jason Green io</description>
     <link>http://jason.green.io/</link>
     <atom:link href="http://jason.green.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Sep 2014 12:50:50 +0100</pubDate>
-    <lastBuildDate>Sat, 13 Sep 2014 12:50:50 +0100</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Fri, 08 Jan 2016 15:02:42 +0000</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2016 15:02:42 +0000</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>iOS Stocks and currency exchange</title>
@@ -115,16 +115,16 @@ comments: true
 
 &lt;p&gt;This worked:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# Mac OS X .. ymmv&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; i in &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;/*.md&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-    sed -i &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt; -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;s/Tags:/tags:/&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;s/Title:/title:/&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;s/Date:/date:/&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;/title:/i\&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;---&lt;span class=&quot;s1&quot;&gt;&amp;#39; \&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;    -e &amp;#39;&lt;/span&gt;/title:/i&lt;span class=&quot;se&quot;&gt;\&amp;#39;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;$&amp;#39;\n&amp;#39;&amp;#39;layout: post&amp;#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-    -e &lt;span class=&quot;s1&quot;&gt;&amp;#39;/tags:/a\&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;---&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$i&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.md; &lt;span class=&quot;k&quot;&gt;do
+    &lt;/span&gt;sed -i &lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt; -e &lt;span class=&quot;s1&quot;&gt;&#39;s/Tags:/tags:/&#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&#39;s/Title:/title:/&#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&#39;s/Date:/date:/&#39;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -e &lt;span class=&quot;s1&quot;&gt;&#39;/title:/i\&#39;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;---&lt;span class=&quot;s1&quot;&gt;&#39; \
+    -e &#39;&lt;/span&gt;/title:/i&lt;span class=&quot;se&quot;&gt;\&#39;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;layout: post&lt;span class=&quot;s1&quot;&gt;&#39; \
+    -e &#39;&lt;/span&gt;/tags:/a&lt;span class=&quot;se&quot;&gt;\&#39;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$&#39;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;---&lt;span class=&quot;s1&quot;&gt;&#39; &quot;$i&quot;
+done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Thu, 06 Feb 2014 12:00:00 +0000</pubDate>
