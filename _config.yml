@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            jason.green.io
 locale:           en_US
-url:
+url:              jason.green.io
 
 
 # Jekyll configuration
@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jason Green
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
+  bio: "admin / dev / geek"
+  email: jason@green.io
   disqus-shortname:
-  twitter: #username
+  twitter: @jason_green_io
   facebook: #username
   google:
     plus: #username
@@ -40,7 +40,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: jason-green-io
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
